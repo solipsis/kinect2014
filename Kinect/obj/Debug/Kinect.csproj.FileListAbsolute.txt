@@ -1,0 +1,13 @@
+c:\users\dave\documents\visual studio 2013\Projects\Kinect\Kinect\bin\Debug\Kinect.exe.config
+c:\users\dave\documents\visual studio 2013\Projects\Kinect\Kinect\bin\Debug\Kinect.exe
+c:\users\dave\documents\visual studio 2013\Projects\Kinect\Kinect\bin\Debug\Kinect.pdb
+c:\users\dave\documents\visual studio 2013\Projects\Kinect\Kinect\obj\Debug\Kinect.csprojResolveAssemblyReference.cache
+c:\users\dave\documents\visual studio 2013\Projects\Kinect\Kinect\obj\Debug\MainWindow.baml
+c:\users\dave\documents\visual studio 2013\Projects\Kinect\Kinect\obj\Debug\MainWindow.g.cs
+c:\users\dave\documents\visual studio 2013\Projects\Kinect\Kinect\obj\Debug\App.g.cs
+c:\users\dave\documents\visual studio 2013\Projects\Kinect\Kinect\obj\Debug\Kinect_MarkupCompile.cache
+c:\users\dave\documents\visual studio 2013\Projects\Kinect\Kinect\obj\Debug\Kinect.g.resources
+c:\users\dave\documents\visual studio 2013\Projects\Kinect\Kinect\obj\Debug\Kinect.Properties.Resources.resources
+c:\users\dave\documents\visual studio 2013\Projects\Kinect\Kinect\obj\Debug\Kinect.csproj.GenerateResource.Cache
+c:\users\dave\documents\visual studio 2013\Projects\Kinect\Kinect\obj\Debug\Kinect.exe
+c:\users\dave\documents\visual studio 2013\Projects\Kinect\Kinect\obj\Debug\Kinect.pdb
