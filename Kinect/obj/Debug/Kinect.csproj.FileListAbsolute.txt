@@ -11,9 +11,6 @@ c:\users\dave\documents\visual studio 2013\Projects\Kinect\Kinect\obj\Debug\Kine
 c:\users\dave\documents\visual studio 2013\Projects\Kinect\Kinect\obj\Debug\Kinect.csproj.GenerateResource.Cache
 c:\users\dave\documents\visual studio 2013\Projects\Kinect\Kinect\obj\Debug\Kinect.exe
 c:\users\dave\documents\visual studio 2013\Projects\Kinect\Kinect\obj\Debug\Kinect.pdb
-D:\ISKinect\KinectRepo\kinect2014\Kinect\bin\Debug\Kinect.exe.config
-D:\ISKinect\KinectRepo\kinect2014\Kinect\obj\Debug\Kinect.exe
-D:\ISKinect\KinectRepo\kinect2014\Kinect\obj\Debug\Kinect.pdb
 C:\Users\dave\Documents\kinect2014\Kinect\bin\Debug\Kinect.exe.config
 C:\Users\dave\Documents\kinect2014\Kinect\obj\Debug\Kinect.exe
 C:\Users\dave\Documents\kinect2014\Kinect\obj\Debug\Kinect.pdb
@@ -27,3 +24,18 @@ C:\Users\dave\Documents\kinect2014\Kinect\obj\Debug\Kinect.Properties.Resources.
 C:\Users\dave\Documents\kinect2014\Kinect\obj\Debug\Kinect.csproj.GenerateResource.Cache
 C:\Users\dave\Documents\kinect2014\Kinect\bin\Debug\Kinect.exe
 C:\Users\dave\Documents\kinect2014\Kinect\bin\Debug\Kinect.pdb
+D:\ISKinect\KinectRepo\kinect2014\Kinect\bin\Debug\Kinect.exe.config
+D:\ISKinect\KinectRepo\kinect2014\Kinect\bin\Debug\Kinect.exe
+D:\ISKinect\KinectRepo\kinect2014\Kinect\bin\Debug\Kinect.pdb
+D:\ISKinect\KinectRepo\kinect2014\Kinect\obj\Debug\Kinect.csprojResolveAssemblyReference.cache
+D:\ISKinect\KinectRepo\kinect2014\Kinect\obj\Debug\MainWindow.baml
+D:\ISKinect\KinectRepo\kinect2014\Kinect\obj\Debug\MainWindow.g.cs
+D:\ISKinect\KinectRepo\kinect2014\Kinect\obj\Debug\App.g.cs
+D:\ISKinect\KinectRepo\kinect2014\Kinect\obj\Debug\Kinect_MarkupCompile.cache
+D:\ISKinect\KinectRepo\kinect2014\Kinect\obj\Debug\Kinect.g.resources
+D:\ISKinect\KinectRepo\kinect2014\Kinect\obj\Debug\Kinect.Properties.Resources.resources
+D:\ISKinect\KinectRepo\kinect2014\Kinect\obj\Debug\Kinect.csproj.GenerateResource.Cache
+D:\ISKinect\KinectRepo\kinect2014\Kinect\obj\Debug\Kinect.exe
+D:\ISKinect\KinectRepo\kinect2014\Kinect\obj\Debug\Kinect.pdb
+D:\ISKinect\KinectRepo\kinect2014\Kinect\bin\Debug\Kinect.exe.CodeAnalysisLog.xml
+D:\ISKinect\KinectRepo\kinect2014\Kinect\bin\Debug\Kinect.exe.lastcodeanalysissucceeded
