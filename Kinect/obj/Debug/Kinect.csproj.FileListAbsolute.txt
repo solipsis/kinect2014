@@ -25,3 +25,5 @@ C:\Users\dave\Documents\kinect2014\Kinect\obj\Debug\Kinect_MarkupCompile.cache
 C:\Users\dave\Documents\kinect2014\Kinect\obj\Debug\Kinect.g.resources
 C:\Users\dave\Documents\kinect2014\Kinect\obj\Debug\Kinect.Properties.Resources.resources
 C:\Users\dave\Documents\kinect2014\Kinect\obj\Debug\Kinect.csproj.GenerateResource.Cache
+C:\Users\dave\Documents\kinect2014\Kinect\bin\Debug\Kinect.exe
+C:\Users\dave\Documents\kinect2014\Kinect\bin\Debug\Kinect.pdb

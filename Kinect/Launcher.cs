@@ -20,7 +20,7 @@ namespace Kinect {
 		private void prepLaunch() {
 			ProcessStartInfo start = new ProcessStartInfo();
 
-			start.FileName = gameInfo.executablePath;
+			start.FileName = gameInfo.Path;
 
 			start.WindowStyle = ProcessWindowStyle.Normal;
 

@@ -10,10 +10,10 @@ namespace Kinect
         private ArrayList gameList;
         private static GameManager _instance;
 
-        private File configFile;
-        private File gamesDir;
+        private string configFile;
+        private string gamesDir;
    
-        public GameManager(File config)
+        public GameManager(string config)
         {
             this.configFile = config;   
 

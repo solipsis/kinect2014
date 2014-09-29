@@ -1,0 +1,6 @@
+<game>
+	<title>cool game</title>
+	<path>../pony</path>
+	<description>a very cool game</description>
+	<img_path>images/dinosaur.png</img_path>
+</game>

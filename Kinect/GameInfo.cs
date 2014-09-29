@@ -8,14 +8,22 @@ using System.Xml;
 
 namespace Kinect
 {
-    class GameInfo
+    public class GameInfo
     {
-        private String Path {get; set;}
-        private String Title {get; set;}
-        private String Description {get; set;}
-        private String ImagePath { get; set; }
- 
+        public String Path {get; set;}
+        public String Title {get; set;}
+        public String Description {get; set;}
+        public String ImagePath { get; set; }
+
+
+        public GameInfo() { }
         public GameInfo(String filename)
+        {
+            //string xml = File.ReadAllText(filename);
+            parseXML(filename);
+        }
+
+        private void parseXML(string filename)
         {
             using (XmlTextReader reader = new XmlTextReader(filename))
             {

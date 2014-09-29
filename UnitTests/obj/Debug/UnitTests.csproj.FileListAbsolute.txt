@@ -1,0 +1,7 @@
+C:\Users\dave\Documents\kinect2014\UnitTests\obj\Debug\UnitTests.csprojResolveAssemblyReference.cache
+C:\Users\dave\Documents\kinect2014\UnitTests\bin\Debug\UnitTests.dll
+C:\Users\dave\Documents\kinect2014\UnitTests\bin\Debug\UnitTests.pdb
+C:\Users\dave\Documents\kinect2014\UnitTests\bin\Debug\Kinect.exe
+C:\Users\dave\Documents\kinect2014\UnitTests\bin\Debug\Kinect.pdb
+C:\Users\dave\Documents\kinect2014\UnitTests\obj\Debug\UnitTests.dll
+C:\Users\dave\Documents\kinect2014\UnitTests\obj\Debug\UnitTests.pdb
