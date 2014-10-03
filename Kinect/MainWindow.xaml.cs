@@ -23,6 +23,19 @@ namespace Kinect
         public MainWindow()
         {
             InitializeComponent();
+       //     var games = GameManager.ListGames();
+       //     foreach (GameInfo g in games) {
+                Button button = new Button();
+                BitmapImage bitmap = new BitmapImage(new Uri("pic.jpg", System.UriKind.Relative));
+
+               // this.MainGrid.Children.Add(button);
+
+         //   }
+        }
+
+        private void Button_MouseEnter(object sender, MouseEventArgs e)
+        {
+            Info.Text = "Info here."; //get info object name and description... somehow
         }
     }
 }

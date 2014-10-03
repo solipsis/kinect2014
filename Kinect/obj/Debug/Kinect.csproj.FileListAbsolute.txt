@@ -39,3 +39,16 @@ D:\ISKinect\KinectRepo\kinect2014\Kinect\obj\Debug\Kinect.exe
 D:\ISKinect\KinectRepo\kinect2014\Kinect\obj\Debug\Kinect.pdb
 D:\ISKinect\KinectRepo\kinect2014\Kinect\bin\Debug\Kinect.exe.CodeAnalysisLog.xml
 D:\ISKinect\KinectRepo\kinect2014\Kinect\bin\Debug\Kinect.exe.lastcodeanalysissucceeded
+C:\Users\Krista Horn\Documents\Visual Studio 2013\Projects\kinect2014\Kinect\bin\Debug\Kinect.exe.config
+C:\Users\Krista Horn\Documents\Visual Studio 2013\Projects\kinect2014\Kinect\obj\Debug\Kinect.exe
+C:\Users\Krista Horn\Documents\Visual Studio 2013\Projects\kinect2014\Kinect\obj\Debug\Kinect.pdb
+C:\Users\Krista Horn\Documents\Visual Studio 2013\Projects\kinect2014\Kinect\bin\Debug\Kinect.exe
+C:\Users\Krista Horn\Documents\Visual Studio 2013\Projects\kinect2014\Kinect\bin\Debug\Kinect.pdb
+C:\Users\Krista Horn\Documents\Visual Studio 2013\Projects\kinect2014\Kinect\obj\Debug\Kinect.csprojResolveAssemblyReference.cache
+C:\Users\Krista Horn\Documents\Visual Studio 2013\Projects\kinect2014\Kinect\obj\Debug\MainWindow.baml
+C:\Users\Krista Horn\Documents\Visual Studio 2013\Projects\kinect2014\Kinect\obj\Debug\MainWindow.g.cs
+C:\Users\Krista Horn\Documents\Visual Studio 2013\Projects\kinect2014\Kinect\obj\Debug\App.g.cs
+C:\Users\Krista Horn\Documents\Visual Studio 2013\Projects\kinect2014\Kinect\obj\Debug\Kinect_MarkupCompile.cache
+C:\Users\Krista Horn\Documents\Visual Studio 2013\Projects\kinect2014\Kinect\obj\Debug\Kinect.g.resources
+C:\Users\Krista Horn\Documents\Visual Studio 2013\Projects\kinect2014\Kinect\obj\Debug\Kinect.Properties.Resources.resources
+C:\Users\Krista Horn\Documents\Visual Studio 2013\Projects\kinect2014\Kinect\obj\Debug\Kinect.csproj.GenerateResource.Cache

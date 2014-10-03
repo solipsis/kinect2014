@@ -57,7 +57,7 @@ namespace Kinect
                             case "GameDirectory":
                                 this.gamesDir = new DirectoryInfo(read.ReadString());                                
                                 break;
-                            case "GameInfoCOnfig":
+                            case "GameInfoConfig":
                                 this.gameInfoConfigFileName = read.ReadString();
                                 break;     
                         }
@@ -96,6 +96,11 @@ namespace Kinect
 
         public static ArrayList ListGames()
         {
+            // ignore please...
+            //TODO
+
+
+
             //Clone is shallow copy only but faster.  Change to .Copy if a deep cop is needed
             return (ArrayList)_Instance.gameList.Clone();
         }
