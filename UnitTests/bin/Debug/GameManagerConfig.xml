@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <GameManagerConfig>
-  <GameDirectory>GameDir</GameDirectory>
+  <GameDirectory>../GameDir</GameDirectory>
 	<GameInfoConfig>GameInfo.xml</GameInfoConfig>
 </GameManagerConfig>

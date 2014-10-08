@@ -6,12 +6,22 @@ using System.Threading.Tasks;
 
 namespace Kinect
 {
-    class Main
+    class MainClass
     {
-
-        public static void main(string[] args)
+        [STAThread]
+        public static void Main(string[] args)
         {
-            
+            GameManager.LoadConfig("GameManagerConfig.xml");
+
+            foreach(GameInfo g in GameManager.ListGames())
+            {
+
+            }
+
+
+            Kinect.App app = new Kinect.App();
+            app.InitializeComponent();
+            app.Run();
         }
     }
 }

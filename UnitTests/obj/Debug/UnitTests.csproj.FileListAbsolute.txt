@@ -12,3 +12,5 @@ D:\ISKinect\KinectRepo\kinect2014\UnitTests\bin\Debug\UnitTests.pdb
 D:\ISKinect\KinectRepo\kinect2014\UnitTests\bin\Debug\Kinect.exe
 D:\ISKinect\KinectRepo\kinect2014\UnitTests\bin\Debug\Kinect.pdb
 D:\ISKinect\KinectRepo\kinect2014\UnitTests\obj\Debug\UnitTests.pdb
+D:\ISKinect\KinectRepo\kinect2014\UnitTests\bin\Debug\GameManagerConfig.xsd
+D:\ISKinect\KinectRepo\kinect2014\UnitTests\bin\Debug\GameManagerConfig.xml

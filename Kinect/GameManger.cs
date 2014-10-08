@@ -71,6 +71,7 @@ namespace Kinect
         public static void LoadConfig(string config)
         {
             _Instance = new GameManager(config);
+            findGames();
         }
         
         //Scan the Games directory for any games availble
@@ -87,6 +88,7 @@ namespace Kinect
                     _Instance.gameList.Add(newGame);
                 }
             }
+            return;
         }
 
         public static void LaunchGame(int gameID)
@@ -96,6 +98,7 @@ namespace Kinect
 
         public static ArrayList ListGames()
         {
+                
             // ignore please...
             //TODO
 

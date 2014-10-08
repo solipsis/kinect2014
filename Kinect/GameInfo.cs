@@ -13,7 +13,7 @@ namespace Kinect
         public String Path {get; set;}
         public String Title {get; set;}
         public String Description {get; set;}
-        public Uri ImagePath { get; set; }
+        public string ImagePath { get; set; }
 
 
         public GameInfo() { }
@@ -34,7 +34,7 @@ namespace Kinect
                 reader.ReadToFollowing("description");
                 Description = reader.ReadElementContentAsString();
                 reader.ReadToFollowing("img_path");
-                ImagePath = new Uri(reader.ReadElementContentAsString());
+                ImagePath = reader.ReadElementContentAsString();
             }
         }
     }

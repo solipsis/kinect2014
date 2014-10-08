@@ -13,5 +13,7 @@ namespace Kinect
     /// </summary>
     public partial class App : Application
     {
+        
+
     }
 }
