@@ -37,26 +37,32 @@ namespace Kinect
                     col++;
                 }
                 
-                Console.WriteLine(g.Description);
-                Console.WriteLine(g.Title);
-                Button button = new Button();
+                Button button = new GameButton(g.Title, g.Description);
                 BitmapImage bitmap = new BitmapImage(new Uri(g.ImagePath, System.UriKind.Relative));
 
                 button.Content = bitmap;
 
+                button.MouseEnter += new MouseEventHandler(Button_MouseEnter);
+
+                //set the buttons position in the grid
                 Grid.SetRow(button, row);
                 Grid.SetColumn(button, col);
-                
-                this.MainGrid.Children.Add(button);
                 row++;
+                
+                //add the button
+                this.MainGrid.Children.Add(button);
 
             }
-            Console.WriteLine("potato");
-            Console.WriteLine(this.MainGrid.Children.Count);
         }
 
-        private void Button_MouseEnter(object sender, MouseEventArgs e)
+        //Update the side panel when the user hovers over a new game
+        private void Button_MouseEnter(Object sender, EventArgs e)
         {
+            GameButton b = (GameButton)sender;
+            SelectedTitle.FontSize = 48;
+            SelectedTitle.Text = b.Title + "\n";
+            SelectedDescription.FontSize = 30;
+            SelectedDescription.Text = b.Description;
         }
     }
 }

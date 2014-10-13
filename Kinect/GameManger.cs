@@ -78,15 +78,11 @@ namespace Kinect
         public static void findGames()
         { 
             GameInfo newGame;
-            //List each of the sub dirs
-            var x = _Instance.gamesDir.EnumerateDirectories();
-            var y = _Instance.gamesDir;
 
-
+            //List each of the sub dirs           
             foreach( DirectoryInfo gameDir in _Instance.gamesDir.EnumerateDirectories())
             {
-                Console.WriteLine(gameDir.FullName);
-                Console.WriteLine(_Instance.gameInfoConfigFileName);
+               
                 //Check each subdirectory for the config file
                 foreach(FileInfo gameConfig in gameDir.GetFiles(_Instance.gameInfoConfigFileName))
                 {

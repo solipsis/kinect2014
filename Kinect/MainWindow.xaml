@@ -5,8 +5,8 @@
 
         xmlns:local="GameInfo.cs"
         Title="MainWindow" WindowStyle="SingleBorderWindow" >
-  
-    <k:KinectRegion Name="KinectRegion" Margin="0,0,194,0">
+
+    <k:KinectRegion Name="KinectRegion" Margin="0,0,356,0">
         <Grid x:Name="MainGrid" Margin="10,10,206,10">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="1*" />
@@ -18,8 +18,10 @@
                 <RowDefinition Height="1*" />
                 <RowDefinition Height="1*" />
             </Grid.RowDefinitions>
+            <TextBlock  Name="SelectedTitle" Grid.Column="1" TextAlignment="Center" HorizontalAlignment="Center" Height="206" Margin="209,-14,-553,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="438" Grid.RowSpan="2"/>
+            <TextBlock Name="SelectedDescription" Grid.Column="1" TextAlignment="Center" HorizontalAlignment="Center" Margin="209,108,-553,0" Grid.RowSpan="3" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="438" Height="216" Grid.Row="1"/>
         </Grid>
-              
-              
+
+
     </k:KinectRegion>
 </Window>

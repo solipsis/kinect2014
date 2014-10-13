@@ -72,6 +72,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="GameButton.cs" />
     <Compile Include="GameInfo.cs" />
     <Compile Include="GameManger.cs" />
     <Compile Include="Launcher.cs" />
@@ -119,6 +120,7 @@
   <ItemGroup>
     <None Include="GameManagerConfig.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </None>
   </ItemGroup>
   <ItemGroup>
