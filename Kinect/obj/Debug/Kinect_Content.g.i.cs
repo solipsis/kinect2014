@@ -8,6 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("gamemanagerconfig.xml")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("gamedir/game1/pic.jpg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("gamedir/game1/randomgame.xml")]
 
 

@@ -4,13 +4,22 @@
         xmlns:k="http://schemas.microsoft.com/kinect/2014"
 
         xmlns:local="GameInfo.cs"
-        Title="MainWindow" WindowStyle="None" WindowState="Maximized">
+        Title="MainWindow" WindowStyle="SingleBorderWindow" >
   
-    <k:KinectRegion Name="KinectRegion">
-        
-        <Grid x:Name="MainGrid">
-            
-
+    <k:KinectRegion Name="KinectRegion" Margin="0,0,194,0">
+        <Grid x:Name="MainGrid" Margin="10,10,206,10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="1*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="1*" />
+            </Grid.RowDefinitions>
         </Grid>
+              
+              
     </k:KinectRegion>
 </Window>

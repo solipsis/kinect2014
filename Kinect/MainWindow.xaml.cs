@@ -24,16 +24,35 @@ namespace Kinect
         {
             InitializeComponent();
             var games = GameManager.ListGames();
+            Console.WriteLine(games.Count);
+
+            int row = 0;
+            int col = 0;
+
             foreach (GameInfo g in games) {
+               //TODO: add new column definition when moving to new column
+                if (row > 3)
+                {
+                    row = 0;
+                    col++;
+                }
+                
+                Console.WriteLine(g.Description);
+                Console.WriteLine(g.Title);
                 Button button = new Button();
                 BitmapImage bitmap = new BitmapImage(new Uri(g.ImagePath, System.UriKind.Relative));
 
                 button.Content = bitmap;
 
-
-               this.MainGrid.Children.Add(button);
+                Grid.SetRow(button, row);
+                Grid.SetColumn(button, col);
+                
+                this.MainGrid.Children.Add(button);
+                row++;
 
             }
+            Console.WriteLine("potato");
+            Console.WriteLine(this.MainGrid.Children.Count);
         }
 
         private void Button_MouseEnter(object sender, MouseEventArgs e)
