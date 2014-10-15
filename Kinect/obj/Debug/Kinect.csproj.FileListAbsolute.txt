@@ -42,3 +42,4 @@ D:\ISKinect\KinectRepo\kinect2014\Kinect\bin\Debug\GameManagerConfig.xml
 D:\ISKinect\KinectRepo\kinect2014\Kinect\bin\Debug\Microsoft.Kinect.dll
 D:\ISKinect\KinectRepo\kinect2014\Kinect\bin\Debug\Microsoft.Kinect.Wpf.Controls.dll
 D:\ISKinect\KinectRepo\kinect2014\Kinect\bin\Debug\Microsoft.Kinect.xml
+C:\Users\Jason\Documents\Kinect\kinect2014\Kinect\bin\Debug\Kinect.exe.config

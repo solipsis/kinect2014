@@ -93,9 +93,9 @@ namespace Kinect
             return;
         }
 
-        public static void LaunchGame(int gameID)
+        public static void LaunchGame(String path)
         {
-            Launcher gameLauncher = new Launcher((GameInfo)_Instance.gameList[gameID]);
+            Launcher gameLauncher = new Launcher(path);
         }
 
         public static ArrayList ListGames()
