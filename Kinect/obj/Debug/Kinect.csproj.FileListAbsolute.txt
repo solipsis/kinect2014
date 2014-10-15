@@ -52,3 +52,4 @@ C:\Users\Jason\Documents\Kinect\kinect2014\Kinect\obj\Debug\Kinect.Properties.Re
 C:\Users\Jason\Documents\Kinect\kinect2014\Kinect\obj\Debug\Kinect.csproj.GenerateResource.Cache
 C:\Users\Jason\Documents\Kinect\kinect2014\Kinect\obj\Debug\Kinect.exe
 C:\Users\Jason\Documents\Kinect\kinect2014\Kinect\obj\Debug\Kinect.pdb
+C:\Users\Jason\Documents\Kinect\kinect2014\Kinect\bin\Debug\Kinect.exe.config

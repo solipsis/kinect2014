@@ -43,7 +43,7 @@ namespace Kinect
                 button.Content = bitmap;
 
                 button.MouseEnter += new MouseEventHandler(Button_MouseEnter);
-				button.MouseUp += new MouseButtonEventHandler(Button_MouseClick);
+				button.Click += new RoutedEventHandler(Button_MouseClick);
 
                 //set the buttons position in the grid
                 Grid.SetRow(button, row);
@@ -66,7 +66,7 @@ namespace Kinect
             SelectedDescription.Text = b.Description;
         }
 
-		private void Button_MouseClick(Object sender, MouseEventArgs e) {
+		private void Button_MouseClick(Object sender, RoutedEventArgs e) {
 			GameButton b = (GameButton)sender;
 			String path = b.Path;
 			GameManager.LaunchGame(path);
