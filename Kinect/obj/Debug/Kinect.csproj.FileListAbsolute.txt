@@ -42,6 +42,17 @@ D:\ISKinect\KinectRepo\kinect2014\Kinect\bin\Debug\GameManagerConfig.xml
 D:\ISKinect\KinectRepo\kinect2014\Kinect\bin\Debug\Microsoft.Kinect.dll
 D:\ISKinect\KinectRepo\kinect2014\Kinect\bin\Debug\Microsoft.Kinect.Wpf.Controls.dll
 D:\ISKinect\KinectRepo\kinect2014\Kinect\bin\Debug\Microsoft.Kinect.xml
+C:\Users\Jason\Documents\Kinect\kinect2014\Kinect\obj\Debug\Kinect.csprojResolveAssemblyReference.cache
+C:\Users\Jason\Documents\Kinect\kinect2014\Kinect\obj\Debug\MainWindow.baml
+C:\Users\Jason\Documents\Kinect\kinect2014\Kinect\obj\Debug\MainWindow.g.cs
+C:\Users\Jason\Documents\Kinect\kinect2014\Kinect\obj\Debug\App.g.cs
+C:\Users\Jason\Documents\Kinect\kinect2014\Kinect\obj\Debug\Kinect_MarkupCompile.cache
+C:\Users\Jason\Documents\Kinect\kinect2014\Kinect\obj\Debug\Kinect.g.resources
+C:\Users\Jason\Documents\Kinect\kinect2014\Kinect\obj\Debug\Kinect.Properties.Resources.resources
+C:\Users\Jason\Documents\Kinect\kinect2014\Kinect\obj\Debug\Kinect.csproj.GenerateResource.Cache
+C:\Users\Jason\Documents\Kinect\kinect2014\Kinect\obj\Debug\Kinect.exe
+C:\Users\Jason\Documents\Kinect\kinect2014\Kinect\obj\Debug\Kinect.pdb
+C:\Users\Jason\Documents\Kinect\kinect2014\Kinect\bin\Debug\Kinect.exe.config
 C:\Users\dave\Documents\kinect2014\Kinect\bin\Debug\GameManagerConfig.xsd
 C:\Users\dave\Documents\kinect2014\Kinect\bin\Debug\GameManagerConfig.xml
 C:\Users\dave\Documents\kinect2014\Kinect\bin\Debug\Kinect.exe.config
@@ -51,6 +62,7 @@ C:\Users\dave\Documents\kinect2014\Kinect\bin\Debug\Microsoft.Kinect.dll
 C:\Users\dave\Documents\kinect2014\Kinect\bin\Debug\Microsoft.Kinect.Wpf.Controls.dll
 C:\Users\dave\Documents\kinect2014\Kinect\bin\Debug\Microsoft.Kinect.xml
 C:\Users\dave\Documents\kinect2014\Kinect\bin\Debug\Microsoft.Kinect.Wpf.Controls.xml
+C:\Users\dave\Documents\kinect2014\Kinect\obj\Debug\Kinect.csprojResolveAssemblyReference.cache
 C:\Users\dave\Documents\kinect2014\Kinect\obj\Debug\MainWindow.baml
 C:\Users\dave\Documents\kinect2014\Kinect\obj\Debug\MainWindow.g.cs
 C:\Users\dave\Documents\kinect2014\Kinect\obj\Debug\App.g.cs
@@ -60,4 +72,3 @@ C:\Users\dave\Documents\kinect2014\Kinect\obj\Debug\Kinect.Properties.Resources.
 C:\Users\dave\Documents\kinect2014\Kinect\obj\Debug\Kinect.csproj.GenerateResource.Cache
 C:\Users\dave\Documents\kinect2014\Kinect\obj\Debug\Kinect.exe
 C:\Users\dave\Documents\kinect2014\Kinect\obj\Debug\Kinect.pdb
-C:\Users\dave\Documents\kinect2014\Kinect\obj\Debug\Kinect.csprojResolveAssemblyReference.cache
