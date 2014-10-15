@@ -37,7 +37,7 @@ namespace Kinect
                     col++;
                 }
                 
-                Button button = new GameButton(g.Title, g.Description);
+                Button button = new GameButton(g.Title, g.Description, g.Path);
                 BitmapImage bitmap = new BitmapImage(new Uri(g.ImagePath, System.UriKind.Relative));
 
                 button.Content = bitmap;
