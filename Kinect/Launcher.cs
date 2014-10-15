@@ -14,7 +14,9 @@ namespace Kinect {
 
 		public Launcher(String path) {
 			// IDK, some stuff might go here.
+
 			GamePath = "GameDir\\" + path;
+
 			prepLaunch();
 		}
 
@@ -22,7 +24,7 @@ namespace Kinect {
 			ProcessStartInfo start = new ProcessStartInfo();
 
 			start.FileName = GamePath;
-            Console.WriteLine(GamePath);
+
 			start.WindowStyle = ProcessWindowStyle.Normal;
 
 			launch(start);

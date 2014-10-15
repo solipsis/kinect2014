@@ -62,7 +62,6 @@ C:\Users\dave\Documents\kinect2014\Kinect\bin\Debug\Microsoft.Kinect.dll
 C:\Users\dave\Documents\kinect2014\Kinect\bin\Debug\Microsoft.Kinect.Wpf.Controls.dll
 C:\Users\dave\Documents\kinect2014\Kinect\bin\Debug\Microsoft.Kinect.xml
 C:\Users\dave\Documents\kinect2014\Kinect\bin\Debug\Microsoft.Kinect.Wpf.Controls.xml
-C:\Users\dave\Documents\kinect2014\Kinect\obj\Debug\Kinect.csprojResolveAssemblyReference.cache
 C:\Users\dave\Documents\kinect2014\Kinect\obj\Debug\MainWindow.baml
 C:\Users\dave\Documents\kinect2014\Kinect\obj\Debug\MainWindow.g.cs
 C:\Users\dave\Documents\kinect2014\Kinect\obj\Debug\App.g.cs
