@@ -10,18 +10,19 @@ namespace Kinect {
 
 	class Launcher {
 
-		private GameInfo gameInfo;
+		private String GamePath;
 
-		public Launcher(GameInfo info) {
+		public Launcher(String path) {
 			// IDK, some stuff might go here.
-			gameInfo = info;
+			GamePath = "GameDir\\" + path;
+			prepLaunch();
 		}
 
 		private void prepLaunch() {
 			ProcessStartInfo start = new ProcessStartInfo();
 
-			start.FileName = gameInfo.Path;
-
+			start.FileName = GamePath;
+            Console.WriteLine(GamePath);
 			start.WindowStyle = ProcessWindowStyle.Normal;
 
 			launch(start);
