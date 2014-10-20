@@ -15,6 +15,10 @@ namespace KinectCounter_old
         static void Main(string[] args)
         {
             MessageBox.Show(KinectSensor.KinectSensors.Count.ToString() + " Kinect sensors detected" );
+            foreach(KinectSensor ks in KinectSensor.KinectSensors)
+            {
+                Console.WriteLine("Sensor: " + ks.UniqueKinectId);
+            }
         }
     }
 }

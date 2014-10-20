@@ -2,3 +2,7 @@ c:\users\dave\documents\visual studio 2010\Projects\KinectCounter_old\KinectCoun
 c:\users\dave\documents\visual studio 2010\Projects\KinectCounter_old\KinectCounter_old\bin\Debug\KinectCounter_old.pdb
 c:\users\dave\documents\visual studio 2010\Projects\KinectCounter_old\KinectCounter_old\obj\x86\Debug\KinectCounter_old.exe
 c:\users\dave\documents\visual studio 2010\Projects\KinectCounter_old\KinectCounter_old\obj\x86\Debug\KinectCounter_old.pdb
+D:\ISKinect\KinectRepo\kinect2014\KinectCounter_old\KinectCounter_old\obj\x86\Debug\KinectCounter_old.exe
+D:\ISKinect\KinectRepo\kinect2014\KinectCounter_old\KinectCounter_old\obj\x86\Debug\KinectCounter_old.pdb
+D:\ISKinect\KinectRepo\kinect2014\KinectCounter_old\KinectCounter_old\bin\Debug\KinectCounter_old.exe
+D:\ISKinect\KinectRepo\kinect2014\KinectCounter_old\KinectCounter_old\bin\Debug\KinectCounter_old.pdb
