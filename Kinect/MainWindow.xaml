@@ -5,11 +5,12 @@
 
         xmlns:local="GameInfo.cs"
         Title="MainWindow" WindowStyle="SingleBorderWindow" >
+
     <Window.Background>
         <ImageBrush ImageSource="background2.jpg" />
     </Window.Background>
-    <k:KinectRegion Name="KinectRegion" Margin="0,0,356,0">
-        <Grid x:Name="FullGrid" Margin="0,0,60,0">
+    <k:KinectRegion Name="KinectRegion" Margin="0,0,-1,0">
+        <Grid x:Name="FullGrid" Margin="0,0,413,0">
             <ScrollViewer>
                 <Grid x:Name="MainGrid">
                     <Grid.ColumnDefinitions>
@@ -25,8 +26,8 @@
                 </Grid>
             </ScrollViewer>
             <TextBlock  Name="SelectedTitle" TextAlignment="Center" HorizontalAlignment="Right" Height="206" Margin="0,0,-398,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="393" Foreground="White" FontFamily="Courier New" FontWeight="Bold"/>
-            <TextBlock Name="SelectedDescription" TextAlignment="Center" HorizontalAlignment="Right" Margin="409,290,-398,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="393" Height="214" Foreground="White" FontFamily="Courier New" FontWeight="Bold"/>
-
+            <TextBlock Name="SelectedDescription" TextAlignment="Center" HorizontalAlignment="Right" Margin="0,211,-398,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="393" Height="170" Foreground="White" FontFamily="Courier New" FontWeight="Bold"/>
+            <Grid x:Name="PlayGrid" Margin="0,381,-398,26" HorizontalAlignment="Right" RenderTransformOrigin="0.5,0.5" Width="334"/>
 
         </Grid>
 
