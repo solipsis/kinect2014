@@ -105,6 +105,8 @@ namespace Kinect
 
             Button playButton = new Button();
             playButton.Content = "Play";
+            playButton.Background = Brushes.Black;
+            playButton.Foreground = Brushes.White;
             playButton.MaxWidth = 200;
             playButton.MaxHeight = 125;
             playButton.Click += new RoutedEventHandler(Play_MouseClick);

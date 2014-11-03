@@ -4,13 +4,14 @@
         xmlns:k="http://schemas.microsoft.com/kinect/2014"
 
         xmlns:local="GameInfo.cs"
-        Title="MainWindow" WindowStyle="SingleBorderWindow" >
+        Title="Kinect" WindowStyle="SingleBorderWindow" >
 
     <Window.Background>
-        <ImageBrush ImageSource="background2.jpg" />
+       <!-- <ImageBrush ImageSource="background2.jpg" />-->
+        <SolidColorBrush Color="Purple"/>
     </Window.Background>
     <k:KinectRegion Name="KinectRegion" Margin="0,0,-1,0">
-        <Grid x:Name="FullGrid" Margin="0,0,413,0">
+        <Grid x:Name="FullGrid" Margin="0,0,413,0" Background="Blue">
             <ScrollViewer>
                 <Grid x:Name="MainGrid">
                     <Grid.ColumnDefinitions>
