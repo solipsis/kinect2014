@@ -24,9 +24,13 @@ namespace Kinect
     {
 
         private static Timer focusTimer;
-        List<Button> buttonsList;
-        //bad idea
+        private int callCount;
+        private int numLoop;
+        private List<GameButton> buttonsList;
+
+        //bad ideas
         GameButton toPlay;
+        Button playButton;
 
 
         public MainWindow()
@@ -40,8 +44,8 @@ namespace Kinect
             SelectedDescription.FontSize = 30;
             SelectedDescription.Text = "Press on a game to find out more info. Grip to scroll.";
 
-            // for timing purposes -- doesn't work... yet
-            buttonsList = new List<Button>();
+            buttonsList = new List<GameButton>();
+            numLoop = 1;
 
             int row = 0;
             int col = 0;
@@ -54,7 +58,7 @@ namespace Kinect
                     col++;
                 }
                 
-                Button button = new GameButton(g.Title, g.Description, g.Path);
+                GameButton button = new GameButton(g.Title, g.Description, g.Path);
                 BitmapImage bitmap = new BitmapImage(new Uri(g.ImagePath, System.UriKind.Relative));
 
                 button.Content = bitmap;
@@ -70,11 +74,12 @@ namespace Kinect
                 //add the button
                 this.MainGrid.Children.Add(button);
                 buttonsList.Add(button);
-
             }
+
+            callCount = buttonsList.Count;
             
-            // timer with 30 second intervals
-            focusTimer = new System.Timers.Timer(2000);
+            // timer with 2 minute intervals
+            focusTimer = new System.Timers.Timer(120000);
 
             //event associated with elapsed time
             focusTimer.Elapsed += OnTimedEvent;
@@ -103,7 +108,7 @@ namespace Kinect
 
             toPlay = b;
 
-            Button playButton = new Button();
+            playButton = new Button();
             playButton.Content = "Play";
             playButton.Background = Brushes.Black;
             playButton.Foreground = Brushes.White;
@@ -123,16 +128,41 @@ namespace Kinect
             GameManager.LaunchGame(path);
         }
 
-        //set focus when time has elapsed
+        //change to "welcome" when time has elapsed
         private void OnTimedEvent(Object sender, ElapsedEventArgs e)
         {
-            int count = 0;
-           // Console.WriteLine("Event: ", e.SignalTime);
-            //loops through ten times
-            while (count != buttonsList.Count * 10)
+          /*  if (callCount == 0)
             {
-                // set description to button text
+                this.Dispatcher.Invoke((Action)(() =>
+                {
+                    SelectedTitle.Text = "Welcome!";
+                    SelectedDescription.Text = "Press on a game to find out more info. Grip to scroll.";
+                    this.PlayGrid.Children.Remove(playButton);
+                }));
+                callCount = 1;
             }
+            else
+            {
+                this.Dispatcher.Invoke((Action)(() =>
+                {
+                    SelectedTitle.Text = "About";
+                    SelectedDescription.Text = "Information and/or pictures here.";
+                    this.PlayGrid.Children.Remove(playButton);
+                }));
+                callCount = 0;
+            }*/
+            
+            //have list of buttons loop through buttonsList[buttonsList.Count % callCount];
+            this.Dispatcher.Invoke((Action)(() =>
+            {
+                SelectedTitle.Text = buttonsList[callCount - (buttonsList.Count * numLoop)].Title;
+                SelectedDescription.Text = buttonsList[callCount - (buttonsList.Count * numLoop)].Description;
+               // this.PlayGrid.Children.Remove(playButton);  -- only remove if welcome or about button (1st and 2nd index?)
+            }));
+            callCount++;
+            if(callCount % 6 == 0)
+                numLoop++;
+            
         }
 
 
