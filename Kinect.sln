@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KinectCounter_old", "Kinect
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KinectCounter_new", "KinectCounter_new\KinectCounter_new.csproj", "{3BF42FA1-F683-469B-9E4A-4A513BDDD990}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScoreAPI", "ScoreAPI\ScoreAPI.csproj", "{E7EBE13D-36D2-4CB2-A188-0DD21F3AB9D3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +63,16 @@ Global
 		{3BF42FA1-F683-469B-9E4A-4A513BDDD990}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{3BF42FA1-F683-469B-9E4A-4A513BDDD990}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{3BF42FA1-F683-469B-9E4A-4A513BDDD990}.Release|x86.ActiveCfg = Release|Any CPU
+		{E7EBE13D-36D2-4CB2-A188-0DD21F3AB9D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7EBE13D-36D2-4CB2-A188-0DD21F3AB9D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7EBE13D-36D2-4CB2-A188-0DD21F3AB9D3}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{E7EBE13D-36D2-4CB2-A188-0DD21F3AB9D3}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{E7EBE13D-36D2-4CB2-A188-0DD21F3AB9D3}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E7EBE13D-36D2-4CB2-A188-0DD21F3AB9D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7EBE13D-36D2-4CB2-A188-0DD21F3AB9D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7EBE13D-36D2-4CB2-A188-0DD21F3AB9D3}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{E7EBE13D-36D2-4CB2-A188-0DD21F3AB9D3}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{E7EBE13D-36D2-4CB2-A188-0DD21F3AB9D3}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

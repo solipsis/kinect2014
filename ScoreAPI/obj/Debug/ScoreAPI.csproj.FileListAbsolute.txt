@@ -1,0 +1,4 @@
+D:\ISKinect\KinectRepo\kinect2014\ScoreAPI\bin\Debug\ScoreAPI.dll
+D:\ISKinect\KinectRepo\kinect2014\ScoreAPI\bin\Debug\ScoreAPI.pdb
+D:\ISKinect\KinectRepo\kinect2014\ScoreAPI\obj\Debug\ScoreAPI.dll
+D:\ISKinect\KinectRepo\kinect2014\ScoreAPI\obj\Debug\ScoreAPI.pdb

@@ -71,3 +71,4 @@ C:\Users\dave\Documents\kinect2014\Kinect\obj\Debug\Kinect.csproj.GenerateResour
 C:\Users\dave\Documents\kinect2014\Kinect\obj\Debug\Kinect.exe
 C:\Users\dave\Documents\kinect2014\Kinect\obj\Debug\Kinect.pdb
 D:\ISKinect\KinectRepo\kinect2014\Kinect\bin\Debug\Microsoft.Kinect.Wpf.Controls.xml
+D:\ISKinect\KinectRepo\kinect2014\Kinect\obj\Debug\Kinect.csprojResolveAssemblyReference.cache
