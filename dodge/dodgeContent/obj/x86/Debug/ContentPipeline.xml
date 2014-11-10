@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Arial.spritefont</Source>
+      <Name>Arial</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\dave\documents\visual studio 2010\Projects\dodge\dodge\dodge\bin\x86\Debug\Content\Arial.xnb</Output>
+      <Time>2014-10-27T09:44:05.3394329-06:00</Time>
+    </Item>
+    <Item>
+      <Source>BackDrop.png</Source>
+      <Name>BackDrop</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\dave\documents\visual studio 2010\Projects\dodge\dodge\dodge\bin\x86\Debug\Content\BackDrop.xnb</Output>
+      <Time>2014-09-07T23:04:46.5497586-06:00</Time>
+    </Item>
+    <Item>
+      <Source>enemy.png</Source>
+      <Name>enemy</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\dave\documents\visual studio 2010\Projects\dodge\dodge\dodge\bin\x86\Debug\Content\enemy.xnb</Output>
+      <Time>2014-09-07T23:25:53.7652391-06:00</Time>
+    </Item>
+    <Item>
+      <Source>enemy2.png</Source>
+      <Name>enemy2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\dave\documents\visual studio 2010\Projects\dodge\dodge\dodge\bin\x86\Debug\Content\enemy2.xnb</Output>
+      <Time>2014-09-07T23:31:47.7464857-06:00</Time>
+    </Item>
+    <Item>
+      <Source>enemy3.png</Source>
+      <Name>enemy3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\dave\documents\visual studio 2010\Projects\dodge\dodge\dodge\bin\x86\Debug\Content\enemy3.xnb</Output>
+      <Time>2014-09-08T00:10:33.1264898-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Launcher.png</Source>
+      <Name>Launcher</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\dave\documents\visual studio 2010\Projects\dodge\dodge\dodge\bin\x86\Debug\Content\Launcher.xnb</Output>
+      <Time>2014-09-08T00:18:28.9107031-06:00</Time>
+    </Item>
+    <Item>
+      <Source>missile.png</Source>
+      <Name>missile</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\dave\documents\visual studio 2010\Projects\dodge\dodge\dodge\bin\x86\Debug\Content\missile.xnb</Output>
+      <Time>2014-09-08T00:54:53.6126609-06:00</Time>
+    </Item>
+    <Item>
+      <Source>reticule.png</Source>
+      <Name>reticule</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\dave\documents\visual studio 2010\Projects\dodge\dodge\dodge\bin\x86\Debug\Content\reticule.xnb</Output>
+      <Time>2014-09-07T14:10:03.3597051-06:00</Time>
+    </Item>
+    <Item>
+      <Source>reticule2.png</Source>
+      <Name>reticule2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\dave\documents\visual studio 2010\Projects\dodge\dodge\dodge\bin\x86\Debug\Content\reticule2.xnb</Output>
+      <Time>2014-09-07T16:16:54.8340565-06:00</Time>
+    </Item>
+    <Item>
+      <Source>player.png</Source>
+      <Name>player</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\dave\documents\visual studio 2010\Projects\dodge\dodge\dodge\bin\x86\Debug\Content\player.xnb</Output>
+      <Time>2014-11-10T11:07:19.579926-07:00</Time>
+    </Item>
+    <Item>
+      <Source>player3.png</Source>
+      <Name>player3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\dave\documents\visual studio 2010\Projects\dodge\dodge\dodge\bin\x86\Debug\Content\player3.xnb</Output>
+      <Time>2014-11-10T14:17:49.5766844-07:00</Time>
+    </Item>
+    <Item>
+      <Source>space-background.jpg</Source>
+      <Name>space-background</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\dave\documents\visual studio 2010\Projects\dodge\dodge\dodge\bin\x86\Debug\Content\space-background.xnb</Output>
+      <Time>2014-11-10T11:31:11.4088219-07:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>c:\users\dave\documents\visual studio 2010\Projects\dodge\dodge\dodgeContent\</RootDirectory>
+      <LoggerRootDirectory>c:\users\dave\documents\visual studio 2010\Projects\dodge\dodge\dodge\</LoggerRootDirectory>
+      <IntermediateDirectory>c:\users\dave\documents\visual studio 2010\Projects\dodge\dodge\dodgeContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>c:\users\dave\documents\visual studio 2010\Projects\dodge\dodge\dodge\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-06:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-06:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-06:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-06:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-06:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-06:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2014-05-21T09:32:44.3718788-06:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
