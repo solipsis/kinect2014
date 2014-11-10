@@ -14,7 +14,7 @@ namespace Kinect.ScoreAPI
 
     public class ScoreAPI
     {
-        private const string URL = "http://192.168.56.101/CSM_IS/scoreAPI.php";
+        private const string URL = "http://luna.mines.edu/team07/ccopper/scoreAPI.php";
 
         static void Main(string[] args)
         {
