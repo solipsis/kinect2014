@@ -50,6 +50,27 @@ namespace Kinect
             int row = 0;
             int col = 0;
 
+            GameButton main = new GameButton("Main", "Press on a game to find out more info. Grip to scroll.","");
+            GameButton about = new GameButton("About", "Original Group: \nField Session 1: \n Field Session 2: \nIndependent Study: David Alexander, Chris Copper, Krista Horn, Jason Santilli", "");
+
+            // add main button
+            Grid.SetRow(main, row);
+            Grid.SetColumn(main, col);
+            main.Margin = new Thickness(10, 10, 10, 10);
+            main.Content = main.Title;
+            main.Click += new RoutedEventHandler(Special_MouseClick);
+            this.MainGrid.Children.Add(main);
+            row++;
+
+            // add about button
+            Grid.SetRow(about, row);
+            Grid.SetColumn(about, col);
+            about.Margin = new Thickness(10, 10, 10, 10);
+            about.Content = about.Title;
+            about.Click += new RoutedEventHandler(Special_MouseClick);
+            this.MainGrid.Children.Add(about);
+            row++;
+
             foreach (GameInfo g in games) {
                //TODO: add new column definition when moving to new column
                 if (row > 3)
@@ -60,11 +81,12 @@ namespace Kinect
                 
                 GameButton button = new GameButton(g.Title, g.Description, g.Path);
                 BitmapImage bitmap = new BitmapImage(new Uri(g.ImagePath, System.UriKind.Relative));
-
                 button.Content = bitmap;
 
                // button.MouseEnter += new MouseEventHandler(Button_MouseEnter);
 				button.Click += new RoutedEventHandler(Button_MouseClick);
+                // add padding
+                button.Margin = new Thickness(10, 10, 10, 10);
            
                 //set the buttons position in the grid
                 Grid.SetRow(button, row);
@@ -85,6 +107,17 @@ namespace Kinect
             focusTimer.Elapsed += OnTimedEvent;
             focusTimer.Enabled = true;
         }
+        //Skeleton count
+      /*  private int GetTotalSkeleton(EventArgs e)
+        {
+            using (SkeletonFrame skeletonFrameData = e.OpenSkeletonFrame())
+            {
+                if (skeletonFrameData == null) return 0;
+                skeletonFrameData.CopySkeletonDataTo(allSkeletons);
+                return allSkeletons.Count(s => s.TrackingState != SkeletonTrackingState.NotTracked);
+            }
+        }*/
+
 
         //Update the side panel when the user hovers over a new game
         private void Button_MouseEnter(Object sender, EventArgs e)
@@ -96,6 +129,21 @@ namespace Kinect
             SelectedDescription.Text = b.Description;
         }
 
+        private void Special_MouseClick(Object sender, RoutedEventArgs e)
+        {
+            this.PlayGrid.Children.Remove(playButton);
+            GameButton b = (GameButton)sender;
+            SelectedTitle.FontSize = 48;
+            SelectedTitle.Text = b.Title + "\n";
+            SelectedDescription.FontSize = 30;
+            SelectedDescription.TextWrapping = TextWrapping.Wrap;
+            SelectedDescription.Text = b.Description + "\n";
+
+
+
+        }
+
+
 		private void Button_MouseClick(Object sender, RoutedEventArgs e) {
 		/*	GameButton b = (GameButton)sender;
 			String path = b.Path;
@@ -104,6 +152,7 @@ namespace Kinect
             SelectedTitle.FontSize = 48;
             SelectedTitle.Text = b.Title + "\n";
             SelectedDescription.FontSize = 30;
+            SelectedDescription.TextWrapping = TextWrapping.Wrap;
             SelectedDescription.Text = b.Description + "\n";
 
             toPlay = b;
@@ -116,7 +165,6 @@ namespace Kinect
             playButton.MaxHeight = 125;
             playButton.Click += new RoutedEventHandler(Play_MouseClick);
             this.PlayGrid.Children.Add(playButton);
-
             
 
 		}
