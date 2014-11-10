@@ -14,6 +14,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Timers;
 using Microsoft.Kinect.Toolkit;
+using Microsoft.Kinect;
 
 namespace Kinect
 {
@@ -32,10 +33,17 @@ namespace Kinect
         GameButton toPlay;
         Button playButton;
 
+        KinectSensor kinect;
+        BodyFrameReader reader;
+        IList<Body> bodies;
+
 
         public MainWindow()
         {
             InitializeComponent();
+
+            kinect = KinectSensor.GetDefault();
+
             var games = GameManager.ListGames();
             Console.WriteLine(games.Count);
 
@@ -61,6 +69,7 @@ namespace Kinect
             main.Click += new RoutedEventHandler(Special_MouseClick);
             this.MainGrid.Children.Add(main);
             row++;
+            buttonsList.Add(main);
 
             // add about button
             Grid.SetRow(about, row);
@@ -70,6 +79,7 @@ namespace Kinect
             about.Click += new RoutedEventHandler(Special_MouseClick);
             this.MainGrid.Children.Add(about);
             row++;
+            buttonsList.Add(about);
 
             foreach (GameInfo g in games) {
                //TODO: add new column definition when moving to new column
@@ -96,27 +106,24 @@ namespace Kinect
                 //add the button
                 this.MainGrid.Children.Add(button);
                 buttonsList.Add(button);
+
+
             }
 
             callCount = buttonsList.Count;
-            
-            // timer with 2 minute intervals
-            focusTimer = new System.Timers.Timer(120000);
+
+            this.bodies = new Body[this.kinect.BodyFrameSource.BodyCount];
+            this.reader = this.kinect.BodyFrameSource.OpenReader();
+
+            // timer with 1 minute intervals
+            focusTimer = new System.Timers.Timer(60000);
 
             //event associated with elapsed time
             focusTimer.Elapsed += OnTimedEvent;
             focusTimer.Enabled = true;
         }
-        //Skeleton count
-      /*  private int GetTotalSkeleton(EventArgs e)
-        {
-            using (SkeletonFrame skeletonFrameData = e.OpenSkeletonFrame())
-            {
-                if (skeletonFrameData == null) return 0;
-                skeletonFrameData.CopySkeletonDataTo(allSkeletons);
-                return allSkeletons.Count(s => s.TrackingState != SkeletonTrackingState.NotTracked);
-            }
-        }*/
+
+
 
 
         //Update the side panel when the user hovers over a new game
@@ -129,6 +136,8 @@ namespace Kinect
             SelectedDescription.Text = b.Description;
         }
 
+
+        // for about and main buttons. "play is not displayed"
         private void Special_MouseClick(Object sender, RoutedEventArgs e)
         {
             this.PlayGrid.Children.Remove(playButton);
@@ -171,7 +180,6 @@ namespace Kinect
 
         private void Play_MouseClick(Object sender, RoutedEventArgs e)
         {
-           // GameButton b = (GameButton)sender;
             String path = toPlay.Path;
             GameManager.LaunchGame(path);
         }
@@ -201,15 +209,18 @@ namespace Kinect
             }*/
             
             //have list of buttons loop through buttonsList[buttonsList.Count % callCount];
-            this.Dispatcher.Invoke((Action)(() =>
+            if (this.bodies[0] == null)
             {
-                SelectedTitle.Text = buttonsList[callCount - (buttonsList.Count * numLoop)].Title;
-                SelectedDescription.Text = buttonsList[callCount - (buttonsList.Count * numLoop)].Description;
-               // this.PlayGrid.Children.Remove(playButton);  -- only remove if welcome or about button (1st and 2nd index?)
-            }));
-            callCount++;
-            if(callCount % 6 == 0)
-                numLoop++;
+                this.Dispatcher.Invoke((Action)(() =>
+                {
+                    SelectedTitle.Text = buttonsList[callCount - (buttonsList.Count * numLoop)].Title;
+                    SelectedDescription.Text = buttonsList[callCount - (buttonsList.Count * numLoop)].Description;
+                    // this.PlayGrid.Children.Remove(playButton);  -- only remove if welcome or about button (1st and 2nd index?)
+                }));
+                callCount++;
+                if (callCount % buttonsList.Count == 0)
+                    numLoop++;
+            }
             
         }
 
