@@ -72,3 +72,9 @@ C:\Users\dave\Documents\kinect2014\Kinect\obj\Debug\Kinect.exe
 C:\Users\dave\Documents\kinect2014\Kinect\obj\Debug\Kinect.pdb
 D:\ISKinect\KinectRepo\kinect2014\Kinect\bin\Debug\Microsoft.Kinect.Wpf.Controls.xml
 D:\ISKinect\KinectRepo\kinect2014\Kinect\obj\Debug\Kinect.csprojResolveAssemblyReference.cache
+C:\Users\dave\Documents\Visual Studio 2013\Projects\Kinect\Kinect\bin\Debug\GameManagerConfig.xsd
+C:\Users\dave\Documents\Visual Studio 2013\Projects\Kinect\Kinect\bin\Debug\GameManagerConfig.xml
+C:\Users\dave\Documents\Visual Studio 2013\Projects\Kinect\Kinect\bin\Debug\Microsoft.Kinect.dll
+C:\Users\dave\Documents\Visual Studio 2013\Projects\Kinect\Kinect\bin\Debug\Microsoft.Kinect.Wpf.Controls.dll
+C:\Users\dave\Documents\Visual Studio 2013\Projects\Kinect\Kinect\bin\Debug\Microsoft.Kinect.xml
+C:\Users\dave\Documents\Visual Studio 2013\Projects\Kinect\Kinect\bin\Debug\Microsoft.Kinect.Wpf.Controls.xml

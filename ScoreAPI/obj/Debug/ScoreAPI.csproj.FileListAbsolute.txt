@@ -2,3 +2,8 @@ D:\ISKinect\KinectRepo\kinect2014\ScoreAPI\bin\Debug\ScoreAPI.dll
 D:\ISKinect\KinectRepo\kinect2014\ScoreAPI\bin\Debug\ScoreAPI.pdb
 D:\ISKinect\KinectRepo\kinect2014\ScoreAPI\obj\Debug\ScoreAPI.dll
 D:\ISKinect\KinectRepo\kinect2014\ScoreAPI\obj\Debug\ScoreAPI.pdb
+C:\Users\dave\Documents\Visual Studio 2013\Projects\Kinect\ScoreAPI\bin\Debug\ScoreAPI.dll
+C:\Users\dave\Documents\Visual Studio 2013\Projects\Kinect\ScoreAPI\bin\Debug\ScoreAPI.pdb
+C:\Users\dave\Documents\Visual Studio 2013\Projects\Kinect\ScoreAPI\obj\Debug\ScoreAPI.csprojResolveAssemblyReference.cache
+C:\Users\dave\Documents\Visual Studio 2013\Projects\Kinect\ScoreAPI\obj\Debug\ScoreAPI.dll
+C:\Users\dave\Documents\Visual Studio 2013\Projects\Kinect\ScoreAPI\obj\Debug\ScoreAPI.pdb

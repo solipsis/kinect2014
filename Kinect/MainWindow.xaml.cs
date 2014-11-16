@@ -90,8 +90,18 @@ namespace Kinect
                 }
                 
                 GameButton button = new GameButton(g.Title, g.Description, g.Path);
-                BitmapImage bitmap = new BitmapImage(new Uri(g.ImagePath, System.UriKind.Relative));
-                button.Content = bitmap;
+               
+                Image i = new Image();
+                BitmapImage src = new BitmapImage();
+                src.BeginInit();
+               // src.UriSource = new Uri("GameDir\\" + g.Title + "\\pic.jpg", UriKind.Relative);
+                src.UriSource = new Uri(g.ImagePath, UriKind.Relative);
+                src.CacheOption = BitmapCacheOption.OnLoad;
+                src.EndInit();
+                i.Source = src;
+                button.Content = i;
+                
+               
 
                // button.MouseEnter += new MouseEventHandler(Button_MouseEnter);
 				button.Click += new RoutedEventHandler(Button_MouseClick);

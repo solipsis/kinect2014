@@ -5,3 +5,11 @@ D:\ISKinect\KinectRepo\kinect2014\KinectCounter_new\bin\Debug\Microsoft.Kinect.d
 D:\ISKinect\KinectRepo\kinect2014\KinectCounter_new\bin\Debug\Microsoft.Kinect.xml
 D:\ISKinect\KinectRepo\kinect2014\KinectCounter_new\obj\Debug\KinectCounter_new.exe
 D:\ISKinect\KinectRepo\kinect2014\KinectCounter_new\obj\Debug\KinectCounter_new.pdb
+C:\Users\dave\Documents\Visual Studio 2013\Projects\Kinect\KinectCounter_new\bin\Debug\KinectCounter_new.exe.config
+C:\Users\dave\Documents\Visual Studio 2013\Projects\Kinect\KinectCounter_new\bin\Debug\KinectCounter_new.exe
+C:\Users\dave\Documents\Visual Studio 2013\Projects\Kinect\KinectCounter_new\bin\Debug\KinectCounter_new.pdb
+C:\Users\dave\Documents\Visual Studio 2013\Projects\Kinect\KinectCounter_new\bin\Debug\Microsoft.Kinect.dll
+C:\Users\dave\Documents\Visual Studio 2013\Projects\Kinect\KinectCounter_new\bin\Debug\Microsoft.Kinect.xml
+C:\Users\dave\Documents\Visual Studio 2013\Projects\Kinect\KinectCounter_new\obj\Debug\KinectCounter_new.csprojResolveAssemblyReference.cache
+C:\Users\dave\Documents\Visual Studio 2013\Projects\Kinect\KinectCounter_new\obj\Debug\KinectCounter_new.exe
+C:\Users\dave\Documents\Visual Studio 2013\Projects\Kinect\KinectCounter_new\obj\Debug\KinectCounter_new.pdb
