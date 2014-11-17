@@ -7,7 +7,7 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>c:\users\dave\documents\visual studio 2010\Projects\dodge\dodge\dodge\bin\x86\Debug\Content\Arial.xnb</Output>
+      <Output>C:\Users\dave\documents\visual studio 2010\Projects\dodge\dodge\dodge\bin\x86\Debug\Content\Arial.xnb</Output>
       <Time>2014-10-27T09:44:05.3394329-06:00</Time>
     </Item>
     <Item>
@@ -16,7 +16,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>c:\users\dave\documents\visual studio 2010\Projects\dodge\dodge\dodge\bin\x86\Debug\Content\BackDrop.xnb</Output>
+      <Output>C:\Users\dave\documents\visual studio 2010\Projects\dodge\dodge\dodge\bin\x86\Debug\Content\BackDrop.xnb</Output>
       <Time>2014-09-07T23:04:46.5497586-06:00</Time>
     </Item>
     <Item>
@@ -25,7 +25,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>c:\users\dave\documents\visual studio 2010\Projects\dodge\dodge\dodge\bin\x86\Debug\Content\enemy.xnb</Output>
+      <Output>C:\Users\dave\documents\visual studio 2010\Projects\dodge\dodge\dodge\bin\x86\Debug\Content\enemy.xnb</Output>
       <Time>2014-09-07T23:25:53.7652391-06:00</Time>
     </Item>
     <Item>
@@ -34,7 +34,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>c:\users\dave\documents\visual studio 2010\Projects\dodge\dodge\dodge\bin\x86\Debug\Content\enemy2.xnb</Output>
+      <Output>C:\Users\dave\documents\visual studio 2010\Projects\dodge\dodge\dodge\bin\x86\Debug\Content\enemy2.xnb</Output>
       <Time>2014-09-07T23:31:47.7464857-06:00</Time>
     </Item>
     <Item>
@@ -43,7 +43,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>c:\users\dave\documents\visual studio 2010\Projects\dodge\dodge\dodge\bin\x86\Debug\Content\enemy3.xnb</Output>
+      <Output>C:\Users\dave\documents\visual studio 2010\Projects\dodge\dodge\dodge\bin\x86\Debug\Content\enemy3.xnb</Output>
       <Time>2014-09-08T00:10:33.1264898-06:00</Time>
     </Item>
     <Item>
@@ -52,7 +52,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>c:\users\dave\documents\visual studio 2010\Projects\dodge\dodge\dodge\bin\x86\Debug\Content\Launcher.xnb</Output>
+      <Output>C:\Users\dave\documents\visual studio 2010\Projects\dodge\dodge\dodge\bin\x86\Debug\Content\Launcher.xnb</Output>
       <Time>2014-09-08T00:18:28.9107031-06:00</Time>
     </Item>
     <Item>
@@ -61,7 +61,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>c:\users\dave\documents\visual studio 2010\Projects\dodge\dodge\dodge\bin\x86\Debug\Content\missile.xnb</Output>
+      <Output>C:\Users\dave\documents\visual studio 2010\Projects\dodge\dodge\dodge\bin\x86\Debug\Content\missile.xnb</Output>
       <Time>2014-09-08T00:54:53.6126609-06:00</Time>
     </Item>
     <Item>
@@ -70,7 +70,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>c:\users\dave\documents\visual studio 2010\Projects\dodge\dodge\dodge\bin\x86\Debug\Content\reticule.xnb</Output>
+      <Output>C:\Users\dave\documents\visual studio 2010\Projects\dodge\dodge\dodge\bin\x86\Debug\Content\reticule.xnb</Output>
       <Time>2014-09-07T14:10:03.3597051-06:00</Time>
     </Item>
     <Item>
@@ -79,7 +79,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>c:\users\dave\documents\visual studio 2010\Projects\dodge\dodge\dodge\bin\x86\Debug\Content\reticule2.xnb</Output>
+      <Output>C:\Users\dave\documents\visual studio 2010\Projects\dodge\dodge\dodge\bin\x86\Debug\Content\reticule2.xnb</Output>
       <Time>2014-09-07T16:16:54.8340565-06:00</Time>
     </Item>
     <Item>
@@ -88,7 +88,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>c:\users\dave\documents\visual studio 2010\Projects\dodge\dodge\dodge\bin\x86\Debug\Content\player.xnb</Output>
+      <Output>C:\Users\dave\documents\visual studio 2010\Projects\dodge\dodge\dodge\bin\x86\Debug\Content\player.xnb</Output>
       <Time>2014-11-10T11:07:19.579926-07:00</Time>
     </Item>
     <Item>
@@ -97,7 +97,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>c:\users\dave\documents\visual studio 2010\Projects\dodge\dodge\dodge\bin\x86\Debug\Content\player3.xnb</Output>
+      <Output>C:\Users\dave\documents\visual studio 2010\Projects\dodge\dodge\dodge\bin\x86\Debug\Content\player3.xnb</Output>
       <Time>2014-11-10T14:17:49.5766844-07:00</Time>
     </Item>
     <Item>
@@ -106,7 +106,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>c:\users\dave\documents\visual studio 2010\Projects\dodge\dodge\dodge\bin\x86\Debug\Content\space-background.xnb</Output>
+      <Output>C:\Users\dave\documents\visual studio 2010\Projects\dodge\dodge\dodge\bin\x86\Debug\Content\space-background.xnb</Output>
       <Time>2014-11-10T11:31:11.4088219-07:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
@@ -115,10 +115,10 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>c:\users\dave\documents\visual studio 2010\Projects\dodge\dodge\dodgeContent\</RootDirectory>
-      <LoggerRootDirectory>c:\users\dave\documents\visual studio 2010\Projects\dodge\dodge\dodge\</LoggerRootDirectory>
-      <IntermediateDirectory>c:\users\dave\documents\visual studio 2010\Projects\dodge\dodge\dodgeContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>c:\users\dave\documents\visual studio 2010\Projects\dodge\dodge\dodge\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\dave\documents\visual studio 2010\Projects\dodge\dodge\dodgeContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\dave\documents\visual studio 2010\Projects\dodge\dodge\dodge\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\dave\documents\visual studio 2010\Projects\dodge\dodge\dodgeContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\dave\documents\visual studio 2010\Projects\dodge\dodge\dodge\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>

@@ -44,7 +44,7 @@ namespace dodge
 
         public Rectangle getHitbox(Texture2D texture)
         {
-            return new Rectangle((int)position.X + 20, (int)position.Y + 20, (int)(texture.Width - 20), (int)(texture.Height - 20));
+            return new Rectangle((int)position.X + 25, (int)position.Y + 25, (int)(texture.Width - 25), (int)(texture.Height - 25));
         }
     }
 }

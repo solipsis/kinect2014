@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <game>
-	<title>Independent Study Simulator 2015</title>
-	<path>asdf</path>
-	<description>See how many pickle jars you can open in 15 minutes</description>
+	<title>Pony Slayer 5</title>
+	<path>RandomGame2\dodge_game\dodge.exe</path>
+	<description>lots of pancakes are delicious</description>
 	<img_path>pic.jpg</img_path>
 </game>

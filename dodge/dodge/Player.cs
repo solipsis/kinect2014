@@ -56,7 +56,7 @@ namespace dodge
 
         public Rectangle getHitbox()
         {
-            return new Rectangle((int)position.X + 10, (int)position.Y + 10, (int)(texture.Width - 10), (int)(texture.Height - 10));
+            return new Rectangle((int)position.X + 25, (int)position.Y + 25, (int)(texture.Width - 25), (int)(texture.Height - 25));
         }
 
         public void setInStartPosition()

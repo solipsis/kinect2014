@@ -12,6 +12,8 @@ using Microsoft.Kinect;
 using System.Speech.Recognition;
 using System.Collections;
 
+using Kinect.ScoreAPI;
+
 namespace dodge
 {
     /// <summary>
@@ -62,6 +64,9 @@ namespace dodge
 
             setupSpawners();
             setupSpeech();
+
+            
+            
         }
 
 
@@ -301,15 +306,9 @@ namespace dodge
 
 
         public void setupSpawners()
-        {
-            //Console.WriteLine("Fat");
-            //Console.WriteLine(obstacleTexture);
+        {     
             obstacleSpawners = new ArrayList();
             obstacleSpawners.Add(new ObstacleSpawner(0, screenRectangle, obstacles));
-           // Vector2 left = new Vector2(screenRectangle.Width / 10, screenRectangle.Height - launcherTexture.Height);
-          //  Vector2 right = new Vector2(screenRectangle.Width * .66f, screenRectangle.Height - launcherTexture.Height);
-          //  leftLauncher = new Launcher(screenRectangle, left, launcherTexture, missileTexture);
-          //  rightLauncher = new Launcher(screenRectangle, right, launcherTexture, missileTexture);
         }
 
         public void updatePlayerPosition()
@@ -332,6 +331,7 @@ namespace dodge
             {
                 if (playerHitbox.Intersects(obs.getHitbox(obstacleTexture))) {
                     running = false;
+                    ScoreAPI.SubmitScore("game", "dave", score);
                 }
             }
         }
