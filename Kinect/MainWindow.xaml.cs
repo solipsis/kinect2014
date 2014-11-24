@@ -37,8 +37,10 @@ namespace Kinect
         Button playButton;
 
         KinectSensor kinect;
-        BodyFrameReader reader;
+        MultiSourceFrameReader reader;
+       // BodyFrameReader reader;
         IList<Body> bodies;
+        Boolean isNull;
 
 
         public MainWindow()
@@ -46,6 +48,7 @@ namespace Kinect
             InitializeComponent();
 
             kinect = KinectSensor.GetDefault();
+            kinect.Open();
 
             var games = GameManager.ListGames();
             Console.WriteLine(games.Count);
@@ -53,7 +56,7 @@ namespace Kinect
             SelectedTitle.FontSize = 45;
             SelectedTitle.Text = "Welcome!";
             SelectedDescription.FontSize = 30;
-            SelectedDescription.Text = "Put both hands up to shoulders to start. Press on a game to find out more info. Grip to scroll.";
+            SelectedDescription.Text = "Raise both hands to start. Press on a game to find out more info. Grip to scroll.";
             HighScores.Text = "";
 
             buttonsList = new List<GameButton>();
@@ -62,7 +65,7 @@ namespace Kinect
             int row = 0;
             int col = 0;
 
-            GameButton main = new GameButton("Main", "Put both hands up to shoulders to start. Press on a game to find out more info. Grip to scroll.","");
+            GameButton main = new GameButton("Main", "Raise both hands to start. Press on a game to find out more info. Grip to scroll.", "");
             GameButton about = new GameButton("About", "Original Group: \nField Session 1: \n Field Session 2: \nIndependent Study: David Alexander, Chris Copper, Krista Horn, Jason Santilli", "");
 
             // add main button
@@ -126,15 +129,42 @@ namespace Kinect
 
             callCount = buttonsList.Count;
 
-            this.bodies = new Body[this.kinect.BodyFrameSource.BodyCount];
-            this.reader = this.kinect.BodyFrameSource.OpenReader();
+           /*this.bodies = new Body[this.kinect.BodyFrameSource.BodyCount];
+           this.reader = this.kinect.BodyFrameSource.OpenReader();*/
 
-            // timer with 1 minute intervals
-            focusTimer = new System.Timers.Timer(60000);
+
+
+           reader = this.kinect.OpenMultiSourceFrameReader(FrameSourceTypes.Body);
+           reader.MultiSourceFrameArrived += reader_MultiSourceFrameArrived;
+
+
+
+            // timer with 2 minute intervals
+            focusTimer = new System.Timers.Timer(120000);
 
             //event associated with elapsed time
             focusTimer.Elapsed += OnTimedEvent;
             focusTimer.Enabled = true;
+        }
+
+        private void reader_MultiSourceFrameArrived(object sender, MultiSourceFrameArrivedEventArgs e)
+        {
+            var reference = e.FrameReference.AcquireFrame();
+            using (var frame = reference.BodyFrameReference.AcquireFrame())
+            {
+                if (frame != null)
+                {
+                    bodies = new Body[frame.BodyFrameSource.BodyCount];
+
+                    frame.GetAndRefreshBodyData(bodies);
+                    if (!bodies[0].IsTracked) // why is the body never being tracked?! 
+                    {
+                        isNull = true;
+                        return;
+                    }
+                    isNull = false;
+                }
+            }
         }
 
 
@@ -215,53 +245,36 @@ namespace Kinect
         //change to "welcome" when time has elapsed
         private void OnTimedEvent(Object sender, ElapsedEventArgs e)
         {
-          /*  if (callCount == 0)
-            {
-                this.Dispatcher.Invoke((Action)(() =>
-                {
-                    SelectedTitle.Text = "Welcome!";
-                    SelectedDescription.Text = "Press on a game to find out more info. Grip to scroll.";
-                    this.PlayGrid.Children.Remove(playButton);
-                }));
-                callCount = 1;
-            }
-            else
-            {
-                this.Dispatcher.Invoke((Action)(() =>
-                {
-                    SelectedTitle.Text = "About";
-                    SelectedDescription.Text = "Information and/or pictures here.";
-                    this.PlayGrid.Children.Remove(playButton);
-                }));
-                callCount = 0;
-            }*/
-            
             //have list of buttons loop through buttonsList[buttonsList.Count % callCount];
             // need to check if works after somebody leaves then enters again.
-            if (this.bodies[0] == null)
-            {
+      //      if (isNull)
+         //   {
+                Console.WriteLine("null");
                 this.Dispatcher.Invoke((Action)(() =>
                 {
-
-                    //THIS IS WHERE THE PROBLEM ARISES WITH SCOREAPI   
-                    /* ScoreAPIResponse scores = ScoreAPI.ScoreAPIResponse.RequestScores(buttonsList[callCount - (buttonsList.Count * numLoop)].Title, 5, 0);
-                     if (scores.ErrCode == 0)
-                     {
-                         foreach (Score s in scores)
-                         {
-                             scoreList += "/'{0} {1}/', s.Name, s.Value"; //not sure if this will format correctly
-                             scoreList += "\n";
-                         }
-                     }*/
+                    if (isNull)
+                    {
+                    String scoreList = "";   
+                    ScoreAPIResponse scores = ScoreAPI.ScoreAPI.RequestScores(buttonsList[callCount - (buttonsList.Count * numLoop)].Title, 5, 0);
+                    if (scores.ErrCode == 0)
+                    {
+                        foreach (Score s in scores.ScoreSet)
+                        {
+                            scoreList += "/'{0} {1}/', s.Name, s.Value"; //not sure if this will format correctly
+                            scoreList += "\n";
+                        }
+                    }
+                    HighScores.Text = scoreList;
                     SelectedTitle.Text = buttonsList[callCount - (buttonsList.Count * numLoop)].Title;
                     SelectedDescription.Text = buttonsList[callCount - (buttonsList.Count * numLoop)].Description;
                     HighScores.Text = "";
-                    // this.PlayGrid.Children.Remove(playButton);  -- only remove if welcome or about button (1st and 2nd index?)
-                }));
+               // }));
                 callCount++;
                 if (callCount % buttonsList.Count == 0)
                     numLoop++;
-            }
+                    }
+                }));
+            
             
         }
 

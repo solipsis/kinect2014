@@ -86,3 +86,5 @@ C:\Users\Krista Horn\Documents\Visual Studio 2013\Projects\kinect2014\Kinect\bin
 C:\Users\Krista Horn\Documents\Visual Studio 2013\Projects\kinect2014\Kinect\bin\Debug\Microsoft.Kinect.Wpf.Controls.xml
 D:\ISKinect\KinectRepo\kinect2014\Kinect\bin\Debug\ScoreAPI.dll
 D:\ISKinect\KinectRepo\kinect2014\Kinect\bin\Debug\ScoreAPI.pdb
+C:\Users\Krista Horn\Documents\Visual Studio 2013\Projects\kinect2014\Kinect\bin\Debug\ScoreAPI.dll
+C:\Users\Krista Horn\Documents\Visual Studio 2013\Projects\kinect2014\Kinect\bin\Debug\ScoreAPI.pdb
