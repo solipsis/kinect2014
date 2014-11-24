@@ -127,6 +127,12 @@
     <Resource Include="GameDir\Game1\pic.jpg" />
     <Resource Include="GameDir\Game1\RandomGame.xml" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ScoreAPI\ScoreAPI.csproj">
+      <Project>{e7ebe13d-36d2-4cb2-a188-0dd21f3ab9d3}</Project>
+      <Name>ScoreAPI</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

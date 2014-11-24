@@ -16,6 +16,9 @@ using System.Timers;
 using Microsoft.Kinect.Toolkit;
 using Microsoft.Kinect;
 
+using Kinect.ScoreAPI;
+
+
 namespace Kinect
 {
     /// <summary>
@@ -189,15 +192,15 @@ namespace Kinect
 
             String scoreList =  "";
             //THIS IS WHERE THE PROBLEM ARISES WITH SCOREAPI   
-           /* ScoreAPIResponse scores = ScoreAPI.ScoreAPIResponse.RequestScores(b.Title, 5, 0);
+            ScoreAPIResponse scores = ScoreAPI.ScoreAPI.RequestScores(b.Title, 5, 0);
             if (scores.ErrCode == 0)
             {
-                foreach (Score s in scores)
+                foreach (Score s in scores.ScoreSet)
                 {
                     scoreList += "/'{0} {1}/', s.Name, s.Value"; //not sure if this will format correctly
                     scoreList += "\n";
                 }
-            }*/
+            }
             HighScores.Text = scoreList;
             
 
