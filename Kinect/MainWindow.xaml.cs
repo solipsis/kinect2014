@@ -65,18 +65,8 @@ namespace Kinect
             int row = 0;
             int col = 0;
 
-            GameButton main = new GameButton("Main", "Raise both hands to start. Press on a game to find out more info. Grip to scroll.", "");
-            GameButton about = new GameButton("About", "Original Group: \nField Session 1: \n Field Session 2: \nIndependent Study: David Alexander, Chris Copper, Krista Horn, Jason Santilli", "");
+            GameButton about = new GameButton("About", "Original Group: \nField Session 1: \nField Session 2: \nIndependent Study: David Alexander, Chris Copper, Krista Horn, Jason Santilli", "");
 
-            // add main button
-            Grid.SetRow(main, row);
-            Grid.SetColumn(main, col);
-            main.Margin = new Thickness(10, 10, 10, 10);
-            main.Content = main.Title;
-            main.Click += new RoutedEventHandler(Special_MouseClick);
-            this.MainGrid.Children.Add(main);
-            row++;
-            buttonsList.Add(main);
 
             // add about button
             Grid.SetRow(about, row);
@@ -212,23 +202,25 @@ namespace Kinect
             toPlay = b;
 
             playButton = new Button();
-            playButton.Content = "Play";
-            playButton.Background = Brushes.Black;
+            playButton.Content = "PLAY";
+            playButton.Background = Brushes.Red;
             playButton.Foreground = Brushes.White;
             playButton.MaxWidth = 200;
             playButton.MaxHeight = 125;
             playButton.Click += new RoutedEventHandler(Play_MouseClick);
             this.PlayGrid.Children.Add(playButton);
 
-            String scoreList =  "";
-            //THIS IS WHERE THE PROBLEM ARISES WITH SCOREAPI   
+            //add high scores from database
+            String scoreList =  ""; 
             ScoreAPIResponse scores = ScoreAPI.ScoreAPI.RequestScores(b.Title, 5, 0);
             if (scores.ErrCode == 0)
             {
+                int scoreCount = 1;
                 foreach (Score s in scores.ScoreSet)
                 {
-                    scoreList += "/'{0} {1}/', s.Name, s.Value"; //not sure if this will format correctly
+                    scoreList += scoreCount + ": " + s.Name + s.Value; //not sure if this will format correctly
                     scoreList += "\n";
+                    scoreCount++;
                 }
             }
             HighScores.Text = scoreList;
@@ -258,10 +250,12 @@ namespace Kinect
                     ScoreAPIResponse scores = ScoreAPI.ScoreAPI.RequestScores(buttonsList[callCount - (buttonsList.Count * numLoop)].Title, 5, 0);
                     if (scores.ErrCode == 0)
                     {
+                        int scoreCount = 1;
                         foreach (Score s in scores.ScoreSet)
                         {
-                            scoreList += "/'{0} {1}/', s.Name, s.Value"; //not sure if this will format correctly
+                            scoreList += scoreCount + ": " + s.Name + s.Value; //not sure if this will format correctly
                             scoreList += "\n";
+                            scoreCount++;
                         }
                     }
                     HighScores.Text = scoreList;
