@@ -4,14 +4,14 @@
         xmlns:k="http://schemas.microsoft.com/kinect/2014"
 
         xmlns:local="GameInfo.cs"
-        Title="Kinect" WindowStyle="SingleBorderWindow" >
+        Title="Kinect" WindowStyle="SingleBorderWindow" WindowState="Maximized" Width="1196.358" Height="795.821">
 
     <Window.Background>
         <!-- <ImageBrush ImageSource="background2.jpg" />-->
         <SolidColorBrush Color="Blue"/>
     </Window.Background>
     <k:KinectRegion Name="KinectRegion" Margin="0,0,-1,0">
-        <Grid x:Name="FullGrid" Margin="0,0,413,0" Background="Silver">
+        <Grid x:Name="FullGrid" Margin="0,0,635,0" Background="Silver">
             <ScrollViewer>
                 <Grid x:Name="MainGrid">
                     <Grid.ColumnDefinitions>
@@ -26,9 +26,10 @@
                     </Grid.RowDefinitions>
                 </Grid>
             </ScrollViewer>
-            <TextBlock  Name="SelectedTitle" TextAlignment="Center" HorizontalAlignment="Right" Height="292" Margin="0,0,-398,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="393" Foreground="White" FontFamily="Courier New" FontWeight="Bold"/>
-            <TextBlock Name="SelectedDescription" TextAlignment="Center" HorizontalAlignment="Right" Margin="0,251,-398,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="393" Height="168" Foreground="White" FontFamily="Courier New" FontWeight="Bold"/>
-            <Grid x:Name="PlayGrid" Margin="0,381,-398,26" HorizontalAlignment="Right" RenderTransformOrigin="0.5,0.5" Width="334"/>
+            <TextBlock  Name="SelectedTitle" TextAlignment="Center" HorizontalAlignment="Right" Height="205" Margin="0,0,-623,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="618" Foreground="White" FontFamily="Courier New" FontWeight="Bold"/>
+            <TextBlock Name="SelectedDescription" TextAlignment="Center" HorizontalAlignment="Right" Margin="0,226,-623,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="618" Height="212" Foreground="White" FontFamily="Courier New" FontWeight="Bold"/>
+            <TextBlock Name="HighScores" TextAlignment="Center" HorizontalAlignment="Right" Margin="0,500,-623,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Center" Width="618" Height="220" Foreground="White" FontFamily="Courier New" />
+            <Grid x:Name="PlayGrid" Margin="0,0,-623,0" HorizontalAlignment="Right" VerticalAlignment="Bottom" RenderTransformOrigin="0.5,0.5" Width="618" Height="100"/>
 
         </Grid>
 

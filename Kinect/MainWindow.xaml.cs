@@ -50,7 +50,8 @@ namespace Kinect
             SelectedTitle.FontSize = 45;
             SelectedTitle.Text = "Welcome!";
             SelectedDescription.FontSize = 30;
-            SelectedDescription.Text = "Press on a game to find out more info. Grip to scroll.";
+            SelectedDescription.Text = "Put both hands up to shoulders to start. Press on a game to find out more info. Grip to scroll.";
+            HighScores.Text = "";
 
             buttonsList = new List<GameButton>();
             numLoop = 1;
@@ -58,7 +59,7 @@ namespace Kinect
             int row = 0;
             int col = 0;
 
-            GameButton main = new GameButton("Main", "Press on a game to find out more info. Grip to scroll.","");
+            GameButton main = new GameButton("Main", "Put both hands up to shoulders to start. Press on a game to find out more info. Grip to scroll.","");
             GameButton about = new GameButton("About", "Original Group: \nField Session 1: \n Field Session 2: \nIndependent Study: David Alexander, Chris Copper, Krista Horn, Jason Santilli", "");
 
             // add main button
@@ -150,7 +151,7 @@ namespace Kinect
         // for about and main buttons. "play is not displayed"
         private void Special_MouseClick(Object sender, RoutedEventArgs e)
         {
-            this.PlayGrid.Children.Remove(playButton);
+            this.PlayGrid.Children.Clear();
             GameButton b = (GameButton)sender;
             SelectedTitle.FontSize = 48;
             SelectedTitle.Text = b.Title + "\n";
@@ -158,6 +159,7 @@ namespace Kinect
             SelectedDescription.TextWrapping = TextWrapping.Wrap;
             SelectedDescription.Text = b.Description + "\n";
 
+            HighScores.Text = "";
 
 
         }
@@ -184,6 +186,19 @@ namespace Kinect
             playButton.MaxHeight = 125;
             playButton.Click += new RoutedEventHandler(Play_MouseClick);
             this.PlayGrid.Children.Add(playButton);
+
+            String scoreList =  "";
+            //THIS IS WHERE THE PROBLEM ARISES WITH SCOREAPI   
+           /* ScoreAPIResponse scores = ScoreAPI.ScoreAPIResponse.RequestScores(b.Title, 5, 0);
+            if (scores.ErrCode == 0)
+            {
+                foreach (Score s in scores)
+                {
+                    scoreList += "/'{0} {1}/', s.Name, s.Value"; //not sure if this will format correctly
+                    scoreList += "\n";
+                }
+            }*/
+            HighScores.Text = scoreList;
             
 
 		}
@@ -219,12 +234,25 @@ namespace Kinect
             }*/
             
             //have list of buttons loop through buttonsList[buttonsList.Count % callCount];
+            // need to check if works after somebody leaves then enters again.
             if (this.bodies[0] == null)
             {
                 this.Dispatcher.Invoke((Action)(() =>
                 {
+
+                    //THIS IS WHERE THE PROBLEM ARISES WITH SCOREAPI   
+                    /* ScoreAPIResponse scores = ScoreAPI.ScoreAPIResponse.RequestScores(buttonsList[callCount - (buttonsList.Count * numLoop)].Title, 5, 0);
+                     if (scores.ErrCode == 0)
+                     {
+                         foreach (Score s in scores)
+                         {
+                             scoreList += "/'{0} {1}/', s.Name, s.Value"; //not sure if this will format correctly
+                             scoreList += "\n";
+                         }
+                     }*/
                     SelectedTitle.Text = buttonsList[callCount - (buttonsList.Count * numLoop)].Title;
                     SelectedDescription.Text = buttonsList[callCount - (buttonsList.Count * numLoop)].Description;
+                    HighScores.Text = "";
                     // this.PlayGrid.Children.Remove(playButton);  -- only remove if welcome or about button (1st and 2nd index?)
                 }));
                 callCount++;
