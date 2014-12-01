@@ -3,12 +3,6 @@ C:\Users\dave\Documents\Visual Studio 2013\Projects\Kinect\ScoreAPI\bin\Debug\Sc
 C:\Users\dave\Documents\Visual Studio 2013\Projects\Kinect\ScoreAPI\obj\Debug\ScoreAPI.csprojResolveAssemblyReference.cache
 C:\Users\dave\Documents\Visual Studio 2013\Projects\Kinect\ScoreAPI\obj\Debug\ScoreAPI.dll
 C:\Users\dave\Documents\Visual Studio 2013\Projects\Kinect\ScoreAPI\obj\Debug\ScoreAPI.pdb
-D:\ISKinect\KinectRepo\kinect2014\ScoreAPI\bin\Debug\ScoreAPI.dll
-D:\ISKinect\KinectRepo\kinect2014\ScoreAPI\bin\Debug\ScoreAPI.pdb
-D:\ISKinect\KinectRepo\kinect2014\ScoreAPI\bin\Debug\System.Net.Http.dll
-D:\ISKinect\KinectRepo\kinect2014\ScoreAPI\bin\Debug\System.Net.Http.xml
-D:\ISKinect\KinectRepo\kinect2014\ScoreAPI\obj\Debug\ScoreAPI.dll
-D:\ISKinect\KinectRepo\kinect2014\ScoreAPI\obj\Debug\ScoreAPI.pdb
 C:\Users\Krista Horn\Documents\Visual Studio 2013\Projects\kinect2014\ScoreAPI\bin\Debug\ScoreAPI.dll
 C:\Users\Krista Horn\Documents\Visual Studio 2013\Projects\kinect2014\ScoreAPI\bin\Debug\ScoreAPI.pdb
 C:\Users\Krista Horn\Documents\Visual Studio 2013\Projects\kinect2014\ScoreAPI\bin\Debug\System.Net.Http.dll
@@ -16,3 +10,9 @@ C:\Users\Krista Horn\Documents\Visual Studio 2013\Projects\kinect2014\ScoreAPI\b
 C:\Users\Krista Horn\Documents\Visual Studio 2013\Projects\kinect2014\ScoreAPI\obj\Debug\ScoreAPI.csprojResolveAssemblyReference.cache
 C:\Users\Krista Horn\Documents\Visual Studio 2013\Projects\kinect2014\ScoreAPI\obj\Debug\ScoreAPI.dll
 C:\Users\Krista Horn\Documents\Visual Studio 2013\Projects\kinect2014\ScoreAPI\obj\Debug\ScoreAPI.pdb
+D:\ISKinect\KinectRepo\kinect2014\ScoreAPI\bin\Debug\ScoreAPI.dll
+D:\ISKinect\KinectRepo\kinect2014\ScoreAPI\bin\Debug\ScoreAPI.pdb
+D:\ISKinect\KinectRepo\kinect2014\ScoreAPI\bin\Debug\System.Net.Http.dll
+D:\ISKinect\KinectRepo\kinect2014\ScoreAPI\bin\Debug\System.Net.Http.xml
+D:\ISKinect\KinectRepo\kinect2014\ScoreAPI\obj\Debug\ScoreAPI.dll
+D:\ISKinect\KinectRepo\kinect2014\ScoreAPI\obj\Debug\ScoreAPI.pdb

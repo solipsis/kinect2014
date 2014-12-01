@@ -11,18 +11,6 @@ c:\users\dave\documents\visual studio 2013\Projects\Kinect\Kinect\obj\Debug\Kine
 c:\users\dave\documents\visual studio 2013\Projects\Kinect\Kinect\obj\Debug\Kinect.csproj.GenerateResource.Cache
 c:\users\dave\documents\visual studio 2013\Projects\Kinect\Kinect\obj\Debug\Kinect.exe
 c:\users\dave\documents\visual studio 2013\Projects\Kinect\Kinect\obj\Debug\Kinect.pdb
-D:\ISKinect\KinectRepo\kinect2014\Kinect\bin\Debug\Kinect.exe.config
-D:\ISKinect\KinectRepo\kinect2014\Kinect\bin\Debug\Kinect.exe
-D:\ISKinect\KinectRepo\kinect2014\Kinect\bin\Debug\Kinect.pdb
-D:\ISKinect\KinectRepo\kinect2014\Kinect\obj\Debug\MainWindow.baml
-D:\ISKinect\KinectRepo\kinect2014\Kinect\obj\Debug\MainWindow.g.cs
-D:\ISKinect\KinectRepo\kinect2014\Kinect\obj\Debug\App.g.cs
-D:\ISKinect\KinectRepo\kinect2014\Kinect\obj\Debug\Kinect_MarkupCompile.cache
-D:\ISKinect\KinectRepo\kinect2014\Kinect\obj\Debug\Kinect.g.resources
-D:\ISKinect\KinectRepo\kinect2014\Kinect\obj\Debug\Kinect.Properties.Resources.resources
-D:\ISKinect\KinectRepo\kinect2014\Kinect\obj\Debug\Kinect.csproj.GenerateResource.Cache
-D:\ISKinect\KinectRepo\kinect2014\Kinect\obj\Debug\Kinect.exe
-D:\ISKinect\KinectRepo\kinect2014\Kinect\obj\Debug\Kinect.pdb
 C:\Users\Krista Horn\Documents\Visual Studio 2013\Projects\kinect2014\Kinect\bin\Debug\Kinect.exe.config
 C:\Users\Krista Horn\Documents\Visual Studio 2013\Projects\kinect2014\Kinect\obj\Debug\Kinect.exe
 C:\Users\Krista Horn\Documents\Visual Studio 2013\Projects\kinect2014\Kinect\obj\Debug\Kinect.pdb
@@ -36,11 +24,6 @@ C:\Users\Krista Horn\Documents\Visual Studio 2013\Projects\kinect2014\Kinect\obj
 C:\Users\Krista Horn\Documents\Visual Studio 2013\Projects\kinect2014\Kinect\obj\Debug\Kinect.g.resources
 C:\Users\Krista Horn\Documents\Visual Studio 2013\Projects\kinect2014\Kinect\obj\Debug\Kinect.Properties.Resources.resources
 C:\Users\Krista Horn\Documents\Visual Studio 2013\Projects\kinect2014\Kinect\obj\Debug\Kinect.csproj.GenerateResource.Cache
-D:\ISKinect\KinectRepo\kinect2014\Kinect\bin\Debug\GameManagerConfig.xsd
-D:\ISKinect\KinectRepo\kinect2014\Kinect\bin\Debug\GameManagerConfig.xml
-D:\ISKinect\KinectRepo\kinect2014\Kinect\bin\Debug\Microsoft.Kinect.dll
-D:\ISKinect\KinectRepo\kinect2014\Kinect\bin\Debug\Microsoft.Kinect.Wpf.Controls.dll
-D:\ISKinect\KinectRepo\kinect2014\Kinect\bin\Debug\Microsoft.Kinect.xml
 C:\Users\Jason\Documents\Kinect\kinect2014\Kinect\obj\Debug\Kinect.csprojResolveAssemblyReference.cache
 C:\Users\Jason\Documents\Kinect\kinect2014\Kinect\obj\Debug\MainWindow.baml
 C:\Users\Jason\Documents\Kinect\kinect2014\Kinect\obj\Debug\MainWindow.g.cs
@@ -70,8 +53,6 @@ C:\Users\dave\Documents\kinect2014\Kinect\obj\Debug\Kinect.Properties.Resources.
 C:\Users\dave\Documents\kinect2014\Kinect\obj\Debug\Kinect.csproj.GenerateResource.Cache
 C:\Users\dave\Documents\kinect2014\Kinect\obj\Debug\Kinect.exe
 C:\Users\dave\Documents\kinect2014\Kinect\obj\Debug\Kinect.pdb
-D:\ISKinect\KinectRepo\kinect2014\Kinect\bin\Debug\Microsoft.Kinect.Wpf.Controls.xml
-D:\ISKinect\KinectRepo\kinect2014\Kinect\obj\Debug\Kinect.csprojResolveAssemblyReference.cache
 C:\Users\dave\Documents\Visual Studio 2013\Projects\Kinect\Kinect\bin\Debug\GameManagerConfig.xsd
 C:\Users\dave\Documents\Visual Studio 2013\Projects\Kinect\Kinect\bin\Debug\GameManagerConfig.xml
 C:\Users\dave\Documents\Visual Studio 2013\Projects\Kinect\Kinect\bin\Debug\Microsoft.Kinect.dll
@@ -84,8 +65,6 @@ C:\Users\Krista Horn\Documents\Visual Studio 2013\Projects\kinect2014\Kinect\bin
 C:\Users\Krista Horn\Documents\Visual Studio 2013\Projects\kinect2014\Kinect\bin\Debug\Microsoft.Kinect.Wpf.Controls.dll
 C:\Users\Krista Horn\Documents\Visual Studio 2013\Projects\kinect2014\Kinect\bin\Debug\Microsoft.Kinect.xml
 C:\Users\Krista Horn\Documents\Visual Studio 2013\Projects\kinect2014\Kinect\bin\Debug\Microsoft.Kinect.Wpf.Controls.xml
-D:\ISKinect\KinectRepo\kinect2014\Kinect\bin\Debug\ScoreAPI.dll
-D:\ISKinect\KinectRepo\kinect2014\Kinect\bin\Debug\ScoreAPI.pdb
 C:\Users\Krista Horn\Documents\Visual Studio 2013\Projects\kinect2014\Kinect\bin\Debug\ScoreAPI.dll
 C:\Users\Krista Horn\Documents\Visual Studio 2013\Projects\kinect2014\Kinect\bin\Debug\ScoreAPI.pdb
 C:\Users\Jason\Documents\Kinect\Project\kinect2014\Kinect\bin\Debug\Kinect.exe.config
@@ -99,3 +78,24 @@ C:\Users\Jason\Documents\Kinect\Project\kinect2014\Kinect\obj\Debug\Kinect_Marku
 C:\Users\Jason\Documents\Kinect\Project\kinect2014\Kinect\obj\Debug\Kinect.g.resources
 C:\Users\Jason\Documents\Kinect\Project\kinect2014\Kinect\obj\Debug\Kinect.Properties.Resources.resources
 C:\Users\Jason\Documents\Kinect\Project\kinect2014\Kinect\obj\Debug\Kinect.csproj.GenerateResource.Cache
+D:\ISKinect\KinectRepo\kinect2014\Kinect\bin\Debug\GameManagerConfig.xsd
+D:\ISKinect\KinectRepo\kinect2014\Kinect\bin\Debug\GameManagerConfig.xml
+D:\ISKinect\KinectRepo\kinect2014\Kinect\bin\Debug\Kinect.exe.config
+D:\ISKinect\KinectRepo\kinect2014\Kinect\bin\Debug\Kinect.exe
+D:\ISKinect\KinectRepo\kinect2014\Kinect\bin\Debug\Kinect.pdb
+D:\ISKinect\KinectRepo\kinect2014\Kinect\bin\Debug\Microsoft.Kinect.dll
+D:\ISKinect\KinectRepo\kinect2014\Kinect\bin\Debug\Microsoft.Kinect.Wpf.Controls.dll
+D:\ISKinect\KinectRepo\kinect2014\Kinect\bin\Debug\ScoreAPI.dll
+D:\ISKinect\KinectRepo\kinect2014\Kinect\bin\Debug\ScoreAPI.pdb
+D:\ISKinect\KinectRepo\kinect2014\Kinect\bin\Debug\Microsoft.Kinect.xml
+D:\ISKinect\KinectRepo\kinect2014\Kinect\bin\Debug\Microsoft.Kinect.Wpf.Controls.xml
+D:\ISKinect\KinectRepo\kinect2014\Kinect\obj\Debug\Kinect.csprojResolveAssemblyReference.cache
+D:\ISKinect\KinectRepo\kinect2014\Kinect\obj\Debug\MainWindow.baml
+D:\ISKinect\KinectRepo\kinect2014\Kinect\obj\Debug\MainWindow.g.cs
+D:\ISKinect\KinectRepo\kinect2014\Kinect\obj\Debug\App.g.cs
+D:\ISKinect\KinectRepo\kinect2014\Kinect\obj\Debug\Kinect_MarkupCompile.cache
+D:\ISKinect\KinectRepo\kinect2014\Kinect\obj\Debug\Kinect.g.resources
+D:\ISKinect\KinectRepo\kinect2014\Kinect\obj\Debug\Kinect.Properties.Resources.resources
+D:\ISKinect\KinectRepo\kinect2014\Kinect\obj\Debug\Kinect.csproj.GenerateResource.Cache
+D:\ISKinect\KinectRepo\kinect2014\Kinect\obj\Debug\Kinect.exe
+D:\ISKinect\KinectRepo\kinect2014\Kinect\obj\Debug\Kinect.pdb

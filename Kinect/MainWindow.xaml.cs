@@ -79,18 +79,18 @@ namespace Kinect
             Grid.SetRow(about, row);
             Grid.SetColumn(about, col);
             about.Margin = new Thickness(10, 10, 10, 10);
-            about.Content = about.Title;
+           // about.Content = about.Title;
             about.Click += new RoutedEventHandler(Special_MouseClick);
             this.MainGrid.Children.Add(about);
-            row++;
+            col++;
             buttonsList.Add(about);
 
             foreach (GameInfo g in games) {
                //TODO: add new column definition when moving to new column
-                if (row > 3)
+                if (col > 1)
                 {
-                    row = 0;
-                    col++;
+                    col = 0;
+                    row++;
                 }
                 
                 GameButton button = new GameButton(g.Title, g.Description, g.Path);
@@ -115,7 +115,7 @@ namespace Kinect
                 //set the buttons position in the grid
                 Grid.SetRow(button, row);
                 Grid.SetColumn(button, col);
-                row++;
+                col++;
                 
                 //add the button
                 this.MainGrid.Children.Add(button);

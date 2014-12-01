@@ -4,7 +4,7 @@
         xmlns:k="http://schemas.microsoft.com/kinect/2014"
 
         xmlns:local="GameInfo.cs"
-        Title="Kinect" WindowStyle="SingleBorderWindow"  WindowState="Maximized" Width="1196.358" Height="795.821">
+        Title="Kinect" WindowStyle="None"  WindowState="Maximized" Width="1196.358" Height="795.821">
 
     <Window.Background>
         <!-- <ImageBrush ImageSource="background2.jpg" />-->
