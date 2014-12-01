@@ -66,7 +66,14 @@ namespace Kinect
             int col = 0;
 
             GameButton about = new GameButton("About", "Original Group: \nField Session 1: \nField Session 2: \nIndependent Study: David Alexander, Chris Copper, Krista Horn, Jason Santilli", "");
-
+            Image i = new Image();
+            BitmapImage src = new BitmapImage();
+            src.BeginInit();
+            src.UriSource = new Uri("aboutPic.jpg", UriKind.Relative);
+            src.CacheOption = BitmapCacheOption.OnLoad;
+            src.EndInit();
+            i.Source = src;
+            about.Content = i;
 
             // add about button
             Grid.SetRow(about, row);
@@ -92,7 +99,7 @@ namespace Kinect
                 BitmapImage src = new BitmapImage();
                 src.BeginInit();
                // src.UriSource = new Uri("GameDir\\" + g.Title + "\\pic.jpg", UriKind.Relative);
-                src.UriSource = new Uri(g.ImagePath, UriKind.Relative);
+                src.UriSource = new Uri("GameDir/" + g.ImagePath, UriKind.Relative);
                 src.CacheOption = BitmapCacheOption.OnLoad;
                 src.EndInit();
                 i.Source = src;
