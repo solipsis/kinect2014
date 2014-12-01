@@ -91,3 +91,11 @@ C:\Users\Krista Horn\Documents\Visual Studio 2013\Projects\kinect2014\Kinect\bin
 C:\Users\Jason\Documents\Kinect\Project\kinect2014\Kinect\bin\Debug\Kinect.exe.config
 C:\Users\Jason\Documents\Kinect\Project\kinect2014\Kinect\obj\Debug\Kinect.exe
 C:\Users\Jason\Documents\Kinect\Project\kinect2014\Kinect\obj\Debug\Kinect.pdb
+C:\Users\Jason\Documents\Kinect\Project\kinect2014\Kinect\obj\Debug\Kinect.csprojResolveAssemblyReference.cache
+C:\Users\Jason\Documents\Kinect\Project\kinect2014\Kinect\obj\Debug\MainWindow.baml
+C:\Users\Jason\Documents\Kinect\Project\kinect2014\Kinect\obj\Debug\MainWindow.g.cs
+C:\Users\Jason\Documents\Kinect\Project\kinect2014\Kinect\obj\Debug\App.g.cs
+C:\Users\Jason\Documents\Kinect\Project\kinect2014\Kinect\obj\Debug\Kinect_MarkupCompile.cache
+C:\Users\Jason\Documents\Kinect\Project\kinect2014\Kinect\obj\Debug\Kinect.g.resources
+C:\Users\Jason\Documents\Kinect\Project\kinect2014\Kinect\obj\Debug\Kinect.Properties.Resources.resources
+C:\Users\Jason\Documents\Kinect\Project\kinect2014\Kinect\obj\Debug\Kinect.csproj.GenerateResource.Cache

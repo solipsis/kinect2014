@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <game>
-	<title>Pony Slayer 5</title>
+	<title>Missile Defence</title>
 	<path>RandomGame\missile_game\MissileDefense.exe</path>
 	<description>lots of pancakes are delicious</description>
-	<img_path>pic.jpg</img_path>
+	<img_path>RandomGame/pic.jpg</img_path>
 </game>
