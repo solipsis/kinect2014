@@ -95,15 +95,15 @@ namespace Kinect
                 
                 GameButton button = new GameButton(g.Title, g.Description, g.Path);
                
-                Image i = new Image();
-                BitmapImage src = new BitmapImage();
-                src.BeginInit();
+                Image img = new Image();
+                BitmapImage source = new BitmapImage();
+                source.BeginInit();
                // src.UriSource = new Uri("GameDir\\" + g.Title + "\\pic.jpg", UriKind.Relative);
-                src.UriSource = new Uri("GameDir/" + g.ImagePath, UriKind.Relative);
-                src.CacheOption = BitmapCacheOption.OnLoad;
-                src.EndInit();
-                i.Source = src;
-                button.Content = i;
+                source.UriSource = new Uri("GameDir/" + g.ImagePath, UriKind.Relative);
+                source.CacheOption = BitmapCacheOption.OnLoad;
+                source.EndInit();
+                img.Source = source;
+                button.Content = img;
                 
                
 
