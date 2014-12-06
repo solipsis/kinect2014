@@ -230,6 +230,7 @@ namespace Kinect
                     scoreCount++;
                 }
             }
+            HighScores.FontSize = 30;
             HighScores.Text = scoreList;
             
 
@@ -265,6 +266,7 @@ namespace Kinect
                             scoreCount++;
                         }
                     }
+                    HighScores.FontSize = 30;
                     HighScores.Text = scoreList;
                     SelectedTitle.Text = buttonsList[callCount - (buttonsList.Count * numLoop)].Title;
                     SelectedDescription.Text = buttonsList[callCount - (buttonsList.Count * numLoop)].Description;

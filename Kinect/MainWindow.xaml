@@ -26,9 +26,9 @@
                     </Grid.RowDefinitions>
                 </Grid>
             </ScrollViewer>
-            <TextBlock  Name="SelectedTitle" TextAlignment="Center" HorizontalAlignment="Right" Height="205" Margin="0,0,-785,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="780" Foreground="White" FontFamily="Courier New" FontWeight="Bold"/>
-            <TextBlock Name="SelectedDescription" TextAlignment="Left" HorizontalAlignment="Right" Margin="0,306,-785,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="780" Height="212" Foreground="White" FontFamily="Courier New" FontWeight="Bold"/>
-            <TextBlock Name="HighScores" TextAlignment="Center" HorizontalAlignment="Right" Margin="0,522,-785,23" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Center" Width="780" Height="220" Foreground="White" FontFamily="Courier New" />
+            <TextBlock  Name="SelectedTitle" TextAlignment="Center" HorizontalAlignment="Right" Height="205" Margin="0,0,-785,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="780" Foreground="White" FontWeight="Bold"/>
+            <TextBlock Name="SelectedDescription" TextAlignment="Left" HorizontalAlignment="Right" Margin="0,306,-785,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="780" Height="212" Foreground="White" FontWeight="Bold"/>
+            <TextBlock Name="HighScores" TextAlignment="Center" HorizontalAlignment="Right" Margin="0,522,-785,23" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Center" Width="780" Height="220" Foreground="White"  FontWeight="Bold"/>
             <Grid x:Name="PlayGrid" Margin="0,105,-785,560" HorizontalAlignment="Right" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Width="780" Height="100"/>
 
         </Grid>
